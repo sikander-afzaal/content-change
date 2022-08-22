@@ -11,6 +11,12 @@ import Button from "@material-ui/core/Button";
 import { green, purple } from "@material-ui/core/colors";
 import { OutlinedInput } from "@material-ui/core";
 import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faFacebook,
+  faInstagram,
+  faWhatsapp,
+} from "@fortawesome/free-brands-svg-icons";
 
 function Footer() {
   const CssEmailField = withStyles({
@@ -58,11 +64,33 @@ function Footer() {
 
   return (
     <div className="footer">
-      <div className="links">
-        <Link to={"/"}>Products</Link>
-        <Link to={"/team"}>Team</Link>
-        <Link to={"/about"}>About</Link>
+      <div className="row-foot">
+        <div className="links">
+          <Link to={"/"}>Products</Link>
+          <Link to={"/team"}>Team</Link>
+          <Link to={"/about"}>About</Link>
+        </div>
+        <div className="social-div">
+          <a
+            target="blank"
+            href="https://www.instagram.com/nataliia.beauty/?hl=en"
+          >
+            <FontAwesomeIcon icon={faInstagram} />
+          </a>
+          <a
+            target="blank"
+            href="https://www.facebook.com/profile.php?id=100063574540308"
+          >
+            {" "}
+            <FontAwesomeIcon icon={faFacebook} />
+          </a>
+          <a href="tel:+971 52 953 8096" target="blank">
+            {" "}
+            <FontAwesomeIcon icon={faWhatsapp} />
+          </a>
+        </div>
       </div>
+
       <div
         className="container-fluid mobilewidth11"
         style={{
@@ -72,7 +100,10 @@ function Footer() {
         }}
       >
         <p className="lastheading" style={{ margin: "0" }}>
-          BELEVI ADDRESS: COMPANY NUMBER ETC.Privacy policy
+          For Booking:{" "}
+          <a target="blank" href="https://bumpix.net/en/nataliiabeauty">
+            Click Here
+          </a>
         </p>
         <br />
       </div>

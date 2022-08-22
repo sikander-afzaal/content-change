@@ -15,15 +15,34 @@
   padding: 40px 20px;
   gap: 40px;
 }
-.links {
+.row-foot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding-inline: 40px;
+}
+.links,
+.social-div {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 20px;
 }
-.links a {
+.links a,
+.social-div a {
   color: white;
   font-size: 20px;
+}
+.social-div a {
+  font-size: 25px;
+}
+@media screen and (max-width: 500px) {
+  .row-foot {
+    flex-direction: column;
+    gap: 20px;
+    padding: 0px;
+  }
 }
 .textfooter {
   font-family: SangBleu OG Sans Trial;
@@ -35,12 +54,13 @@
 }
 
 .lastheading {
-  color: #f9f9f9;
-  opacity: 0.5;
-  font-size: 12px;
+  color: white;
+  opacity: 1;
+  font-size: 18px;
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 10px;
 }
 .line {
   border-top: none;
