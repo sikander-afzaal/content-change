@@ -1,3 +1,52 @@
+.banner-hero {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 100%;
+  height: max(100vh, 800px);
+  background-image: url("./banner.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-left: 16vw;
+}
+.banner-hero h1 {
+  font-size: 70px;
+  text-transform: uppercase;
+  color: white;
+}
+@media screen and (max-width: 1030px) {
+  .banner-hero {
+    padding: 0;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 675px) {
+  .banner-hero h1 {
+    font-size: 40px;
+  }
+}
+.banner-hero a {
+  width: 200px;
+  height: 50px !important;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  transition: all 0.3s ease-in-out;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 1;
+  margin: 0;
+}
+.banner-hero button:hover {
+  background-color: white;
+  color: black;
+}
 .products-section {
   border-top: 1px solid rgba(27, 54, 68, 0.2);
   border-bottom: 1px solid rgba(27, 54, 68, 0.2);

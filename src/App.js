@@ -11,6 +11,7 @@ import { zhCN, enUS, esES } from "@material-ui/core/locale";
 import * as locales from "@material-ui/core/locale";
 import ProductsPage from "./pages/ProductsPage/ProductsPage.js";
 import ProductPageDesktop from "./pages/productpagedesktop/productpagedesktop";
+import Team from "./pages/Team/Team.jsx";
 
 function App() {
   const [locale, setLocale] = useState("enUS");
@@ -29,6 +30,7 @@ function App() {
             component={ProductPageDesktop}
             exact
           />
+          <Route path="/team" component={Team} exact />
         </Switch>
         <Footer />
       </ThemeProvider>

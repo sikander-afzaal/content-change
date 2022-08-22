@@ -6,7 +6,7 @@ function Navbar() {
   return (
     <div className="container">
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
-        <Link className="navbar-brand">
+        <Link to={"/"} className="navbar-brand">
           <img className="logo" src="/images/logo.png" />
         </Link>
         <button
@@ -31,22 +31,21 @@ function Navbar() {
           >
             <li className="nav-item pad">
               <Link className="nav-link" to="/">
-                Home{" "}
-              </Link>
-            </li>
-            <li className="nav-item pad">
-              <Link className="nav-link" to="/">
                 Products
               </Link>
             </li>
             <li className="nav-item pad">
-              <Link className="nav-link">Cursos</Link>
+              <Link to={"/about"} className="nav-link">
+                About-us
+              </Link>
+            </li>{" "}
+            <li className="nav-item pad">
+              <Link to={"/team"} className="nav-link">
+                Team
+              </Link>
             </li>
             <li className="nav-item pad">
-              <Link className="nav-link">About-us</Link>
-            </li>
-            <li className="nav-item pad">
-              <Link className="nav-link" to="contact">
+              <Link className="nav-link" to="/contact">
                 Contact
               </Link>
             </li>
