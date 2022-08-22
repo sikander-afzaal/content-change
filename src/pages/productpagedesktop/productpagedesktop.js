@@ -46,7 +46,10 @@ function ProductPageDesktop() {
   }, []);
 
   return (
-    <div className="container-fluid" style={{ padding: "0px 40px" }}>
+    <div
+      className="container-fluid"
+      style={{ padding: "0px 40px", margin: "50px 0px" }}
+    >
       <div className="row">
         <div className="col-md-6 ">
           <div
@@ -126,30 +129,16 @@ function ProductPageDesktop() {
               </>
             )}
 
-            <div className="main10">
-              <button className="btn1" style={{ marginRight: "15px" }}>
-                <span className="spaninner">CHEEKS</span>
-              </button>
-
-              <button className="btn1" style={{ marginRight: "15px" }}>
-                <span className="spaninner">EYE BAGS</span>
-              </button>
-
-              <button className="btn1" style={{ marginRight: "15px" }}>
-                <span className="spaninner">BONE PART</span>
-              </button>
-            </div>
-
             <div className="measurement">
               <div className="measurements">
-                <p className="pmeasure">Duration</p>
+                <p className="pmeasure">Duration:</p>
 
                 <p className="pmeasure">{data[0]?.duration}</p>
               </div>
             </div>
             <div className="measurement">
               <div className="measurements">
-                <p className="pmeasure">Price</p>
+                <p className="pmeasure">Price:</p>
 
                 <p className="pmeasure">{data[0]?.price}</p>
               </div>

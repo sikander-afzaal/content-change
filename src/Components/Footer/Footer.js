@@ -10,6 +10,7 @@ import TextField from "@material-ui/core/TextField";
 import Button from "@material-ui/core/Button";
 import { green, purple } from "@material-ui/core/colors";
 import { OutlinedInput } from "@material-ui/core";
+import { Link } from "react-router-dom";
 
 function Footer() {
   const CssEmailField = withStyles({
@@ -56,90 +57,26 @@ function Footer() {
   };
 
   return (
-    <>
-      <div
-        className="container-fluid mobilewidth11"
-        style={{ marginTop: "40px" }}
-      >
-        <div className="row bg12">
-          <div className="col-md-12 bg-footer footercenter ">
-            <div
-              className="main121"
-              style={{ display: "flex", justifyContent: "space-between" }}
-            >
-              <p className="textfooter">
-                Suscríbete a <br />
-                nuestro boletín
-              </p>
-
-              <div id="inner-circle">
-                <img src="/images/SEND.png" width="32px" />
-              </div>
-            </div>
-            <div className="form-group1">
-              <CssEmailField
-                id="custom-css-standard-input"
-                label="Enter your email"
-                type="email"
-                fullWidth
-              />
-
-              <div className="inlinecheckbox">
-                <div
-                  style={{
-                    display: "flex",
-                    justifyContent: "flex-start",
-                    alignItems: "center",
-                  }}
-                >
-                  <Switch
-                    checked={state.checkedB}
-                    onChange={handleChange}
-                    color="#fafafa"
-                    name="checkedB"
-                    inputProps={{ "aria-label": "primary checkbox" }}
-                  />
-
-                  <p className="footerprivacy">Acept privacy policy</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+    <div className="footer">
+      <div className="links">
+        <Link to={"/"}>Products</Link>
+        <Link to={"/team"}>Team</Link>
+        <Link to={"/about"}>About</Link>
       </div>
-
       <div
         className="container-fluid mobilewidth11"
-        style={{ backgroundColor: "#071116" }}
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
       >
-        <div className="row" style={{ marginTop: "-2px" }}>
-          <div
-            className="col-md-12"
-            style={{
-              display: "flex",
-              justifyContent: "space-between",
-              alignItems: "center",
-              padding: "20px",
-            }}
-          >
-            <p style={{ color: "#F9F9F9", opacity: "0.5" }}>+0000000000</p>
-            <p>
-              <span style={{ marginRight: "10px" }} class="dot"></span>
-              <span class="dot"></span>
-            </p>
-          </div>
-          <br />
-          <p className="line">.</p>
-
-          <br />
-          <br />
-        </div>
-        <p className="lastheading">
+        <p className="lastheading" style={{ margin: "0" }}>
           BELEVI ADDRESS: COMPANY NUMBER ETC.Privacy policy
         </p>
         <br />
       </div>
-    </>
+    </div>
   );
 }
 export default Footer;

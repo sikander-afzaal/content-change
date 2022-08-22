@@ -59,15 +59,6 @@ function ProductsPage() {
           </div>
         </div>
       </div>
-      <TablePagination
-        component="div"
-        count={totalProducts}
-        page={page}
-        onChangePage={handleChangePage}
-        rowsPerPage={rowsPerPage}
-        onChangeRowsPerPage={handleChangeRowsPerPage}
-        labelRowsPerPage="Products per page"
-      />
     </div>
   );
 }
