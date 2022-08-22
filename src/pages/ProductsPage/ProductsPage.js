@@ -36,7 +36,11 @@ function ProductsPage() {
   console.log(displayProducts);
   return (
     <div>
-      <div className="products-section">
+      <div className="banner-hero">
+        <h1>Nataliia Beauty</h1>
+        <a href="#courses">Courses</a>
+      </div>
+      <div className="products-section" id="courses">
         <div className="container">
           <div
             className="row"
