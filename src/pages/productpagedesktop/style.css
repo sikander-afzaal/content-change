@@ -1,0 +1,310 @@
+.subname {
+  /* Hyaloronic acid dermal filler */
+
+  font-family: SangBleu OG Sans Trial;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 150%;
+  /* identical to box height, or 15px */
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  /* dark mode */
+  color: #1b3644;
+}
+
+.product-content {
+  /* SangblueOG Type System/Paragraph/2 */
+  font-family: SangBleu OG Sans Trial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  /* or 21px */
+
+  /* dark mode */
+  color: #1b3644;
+  padding-right: 120px;
+}
+.leftdiv {
+  padding: 40px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.product-heading {
+  /* title */
+
+  /* SangblueOG Type System/Sub-Heading/1 */
+  font-family: SangBleu OG Sans Trial;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 150%;
+  /* identical to box height, or 54px */
+
+  color: #000000;
+}
+.btn1 {
+  /* Rectangle 62 */
+  background-color: #f9f9f9;
+
+  position: absolue;
+
+  /* dark mode */
+  border: 0.7px solid #1b3644;
+  box-sizing: border-box;
+  border-radius: 57px;
+}
+.spaninner {
+  /* title */
+
+  font-family: SangBleu OG Sans Trial;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 150%;
+  /* or 15px */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  background-color: #29bdad;
+
+  /* dark mode */
+  color: #1b3644;
+}
+
+.measurements {
+  display: flex;
+  justify-content: space-between;
+}
+.pmeasure {
+  /* paragraph/desktop/subheading */
+  font-family: SangBleu OG Sans Trial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  /* identical to box height, or 21px */
+  display: flex;
+  align-items: center;
+
+  /* dark mode */
+  color: #1b3644;
+}
+.main10 {
+  display: "flex";
+  justify-content: flex-start;
+  padding-right: 150px;
+}
+.measurement {
+  margin-top: 20px;
+  padding-right: 120px;
+}
+.bestprice {
+  /* Base price: */
+  margin-top: "15px";
+  margin-bottom: "30px";
+
+  /* SangblueOG Type System/Paragraph/1 */
+  font-family: SangBleu OG Sans Trial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 150%;
+  /* identical to box height, or 27px */
+  display: flex;
+  align-items: center;
+  font-weight: 400 !important;
+
+  /* dark mode */
+  color: #1b3644;
+}
+.enquire {
+  /* title */
+
+  /* SangblueOG Type System/Sub-Heading/3 */
+  font-family: SangBleu OG Sans Trial;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 150%;
+  /* identical to box height, or 30px */
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  /* dark mode */
+  color: #1b3644;
+}
+
+.help {
+  /* SangblueOG Type System/Sub-Heading/3 */
+  font-family: SangBleu OG Sans Trial;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 150%;
+  /* or 30px */
+  display: flex;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+
+  /* dark mode */
+  color: #1b3644;
+}
+.call {
+  /* title */
+
+  font-family: SangBleu OG Sans Trial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  /* identical to box height, or 21px */
+  display: flex;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  /* dark mode */
+  color: #1b3644;
+}
+.w-100 {
+  width: 100% !important;
+  height: 629px;
+}
+.roundborder {
+  border: 1px solid #1b3644;
+  border-radius: 24%;
+  height: 150px;
+  text-align: center;
+  align-self: flex-end;
+  width: 280px;
+  margin-top: 40px;
+}
+.buttonlast {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+}
+.content-div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-top: 30px;
+  gap: 20px;
+}
+.content-div h1 {
+  text-decoration: underline;
+}
+.content-div h1,
+.sub-content h3 {
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+}
+.content-div > div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.content-div > div h2,
+.sub-content h2 {
+  font-weight: 600;
+  font-size: 28px;
+}
+.sub-content {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 4px;
+  margin-top: 10px;
+}
+.sub-content h3 {
+  font-size: 22px !important;
+  font-weight: 500;
+}
+.sub-content p {
+  font-size: 17px !important;
+}
+
+@media screen and (max-width: 800px) {
+  .leftdiv {
+    padding: 0;
+    margin-top: 30px;
+  }
+  .w-100 {
+    width: 100% !important;
+    height: 100% !important;
+  }
+  .main10 {
+    display: "flex" !important;
+    justify-content: space-between !important;
+    padding-right: 0px !important;
+  }
+  .product-content {
+    /* SangblueOG Type System/Paragraph/2 */
+    font-family: SangBleu OG Sans Trial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    /* or 21px */
+
+    /* dark mode */
+    color: #1b3644;
+    padding-right: 0px;
+  }
+  .measurement {
+    margin-top: 20px;
+    padding-right: 0px;
+  }
+
+  .pmeasure {
+    font-family: SangBleu OG Sans Trial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    color: #1b3644;
+  }
+  .btn1 {
+    border: 0.7px solid #1b3644;
+    box-sizing: border-box;
+    border-radius: 57px;
+    width: 107px;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: #f9f9f9;
+  }
+
+  .help {
+    /* SangblueOG Type System/Sub-Heading/3 */
+    font-family: SangBleu OG Sans Trial;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 150%;
+    /* or 30px */
+    display: flex;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    /* dark mode */
+    color: #1b3644;
+  }
+}

@@ -1,0 +1,113 @@
+.formtab{
+    padding: 10px 20px;
+}
+.heading{
+    color: #1B3644;
+    font-size: 25px;
+    font-weight: 300px;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #1B3644;
+    font-size: 18px;
+    background-color: #fff;
+    background-clip: padding-box;
+    border-bottom: 1px solid #1B3644;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: none;
+}
+.form-group{
+    margin-top: -10px;
+}
+.tof{
+    font-size: 18px;
+    color: #1B3644;  
+}
+.marginremove{
+    margin-top: -20px;
+}
+.privacytext{
+    color: #1B3644;
+    margin: 0;
+}
+.MuiSwitch-colorPrimary.Mui-checked {
+    color: #29BDAD!important;
+}
+
+input::-webkit-input-placeholder {
+    color: #1B3644!important;
+}
+.inlinecheckbox{
+    display: flex;
+    justify-content: space-between;
+}    
+.btn-form{
+    height: 38px;
+    width: 100px;
+    color: #1B3644!important;;
+    border: 1px solid #1B3644!important; 
+    border-top-right-radius: 1em;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+.imgcontact{
+    width: 400px;
+}
+button{
+    outline: none !important;
+    border: '1px solid black !important';
+    padding: 0 20px !important;
+    height: 40px !important;
+}
+button:focus{
+    outline: none !important;
+    border: '1px solid black !important';
+    padding: 0 20px !important;
+}
+.btn{
+    outline: none;
+}
+.btn:focus{
+    outline: none !important;
+    border: none !important
+}
+
+@media screen and (max-width: 600px) {
+    .imgcontact{
+        width: 100%;
+        height: 370px;
+    }
+    .btn-form{
+        margin-top: 16px;
+    }
+    .pad{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        list-style: none;
+        padding-right: 20px;
+    }
+    button{
+        outline: none !important;
+        border: '1px solid black !important';
+        padding: 0 20px !important;
+        height: 40px !important;
+    }
+    button:focus{
+        outline: none !important;
+        border: '1px solid black !important';
+        padding: 0 20px !important;
+    }
+    .inlinecheckbox{
+        flex-direction: column;
+    }
+  }
