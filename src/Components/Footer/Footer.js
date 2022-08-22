@@ -84,7 +84,7 @@ function Footer() {
             {" "}
             <FontAwesomeIcon icon={faFacebook} />
           </a>
-          <a href="tel:+971 52 953 8096" target="blank">
+          <a href="https://wa.me/971529538096?text=" target="blank">
             {" "}
             <FontAwesomeIcon icon={faWhatsapp} />
           </a>
