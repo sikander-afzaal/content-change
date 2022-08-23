@@ -3,6 +3,7 @@ import "./style.css";
 import ProductCard from "./ProductCard";
 import TablePagination from "@material-ui/core/TablePagination";
 import { productsArray } from "./productsData";
+import { Link } from "react-router-dom";
 
 function ProductsPage() {
   const [page, setPage] = useState(0);
@@ -39,9 +40,23 @@ function ProductsPage() {
       <div className="banner-hero">
         <h1>Nataliia Beauty</h1>
         <a href="#courses">Courses</a>
+      </div>{" "}
+      <div className="logo-row">
+        <img src="./images/logo.png" alt="" />
+        <img src="./images/logo.png" alt="" />
+        <img src="./images/logo.png" alt="" />
+        <img src="./images/logo.png" alt="" />
+        <img src="./images/logo.png" alt="" />
+        <img src="./images/logo.png" alt="" />
+        <img src="./images/logo.png" alt="" />
+      </div>
+      <div className="about-hero">
+        <h1>About Us</h1>
+        <Link to="/about">About</Link>
       </div>
       <div className="products-section" id="courses">
-        <div className="container">
+        <div className="container flex">
+          <h1 className="heading-cont">Courses</h1>
           <div
             className="row"
             style={{
