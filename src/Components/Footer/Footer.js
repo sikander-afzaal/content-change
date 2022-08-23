@@ -10,6 +10,13 @@ import TextField from "@material-ui/core/TextField";
 import Button from "@material-ui/core/Button";
 import { green, purple } from "@material-ui/core/colors";
 import { OutlinedInput } from "@material-ui/core";
+import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faFacebook,
+  faInstagram,
+  faWhatsapp,
+} from "@fortawesome/free-brands-svg-icons";
 
 function Footer() {
   const CssEmailField = withStyles({
@@ -56,90 +63,51 @@ function Footer() {
   };
 
   return (
-    <>
-      <div
-        className="container-fluid mobilewidth11"
-        style={{ marginTop: "40px" }}
-      >
-        <div className="row bg12">
-          <div className="col-md-12 bg-footer footercenter ">
-            <div
-              className="main121"
-              style={{ display: "flex", justifyContent: "space-between" }}
-            >
-              <p className="textfooter">
-                Suscríbete a <br />
-                nuestro boletín
-              </p>
-
-              <div id="inner-circle">
-                <img src="/images/SEND.png" width="32px" />
-              </div>
-            </div>
-            <div className="form-group1">
-              <CssEmailField
-                id="custom-css-standard-input"
-                label="Enter your email"
-                type="email"
-                fullWidth
-              />
-
-              <div className="inlinecheckbox">
-                <div
-                  style={{
-                    display: "flex",
-                    justifyContent: "flex-start",
-                    alignItems: "center",
-                  }}
-                >
-                  <Switch
-                    checked={state.checkedB}
-                    onChange={handleChange}
-                    color="#fafafa"
-                    name="checkedB"
-                    inputProps={{ "aria-label": "primary checkbox" }}
-                  />
-
-                  <p className="footerprivacy">Acept privacy policy</p>
-                </div>
-              </div>
-            </div>
-          </div>
+    <div className="footer">
+      <div className="row-foot">
+        <div className="links">
+          <Link to={"/"}>Products</Link>
+          <Link to={"/team"}>Team</Link>
+          <Link to={"/about"}>About</Link>
+        </div>
+        <div className="social-div">
+          <a
+            target="blank"
+            href="https://www.instagram.com/nataliia.beauty/?hl=en"
+          >
+            <FontAwesomeIcon icon={faInstagram} />
+          </a>
+          <a
+            target="blank"
+            href="https://www.facebook.com/profile.php?id=100063574540308"
+          >
+            {" "}
+            <FontAwesomeIcon icon={faFacebook} />
+          </a>
+          <a href="https://wa.me/971529538096?text=" target="blank">
+            {" "}
+            <FontAwesomeIcon icon={faWhatsapp} />
+          </a>
         </div>
       </div>
 
       <div
         className="container-fluid mobilewidth11"
-        style={{ backgroundColor: "#071116" }}
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
       >
-        <div className="row" style={{ marginTop: "-2px" }}>
-          <div
-            className="col-md-12"
-            style={{
-              display: "flex",
-              justifyContent: "space-between",
-              alignItems: "center",
-              padding: "20px",
-            }}
-          >
-            <p style={{ color: "#F9F9F9", opacity: "0.5" }}>+0000000000</p>
-            <p>
-              <span style={{ marginRight: "10px" }} class="dot"></span>
-              <span class="dot"></span>
-            </p>
-          </div>
-          <br />
-          <p className="line">.</p>
-
-          <br />
-          <br />
-        </div>
-        <p className="lastheading">
-          BELEVI ADDRESS: COMPANY NUMBER ETC.Privacy policy
+        <p className="lastheading" style={{ margin: "0" }}>
+          For Booking:{" "}
+          <a target="blank" href="https://bumpix.net/en/nataliiabeauty">
+            Click Here
+          </a>
         </p>
         <br />
       </div>
-    </>
+    </div>
   );
 }
 export default Footer;

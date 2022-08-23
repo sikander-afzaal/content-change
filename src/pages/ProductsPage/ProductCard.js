@@ -31,6 +31,7 @@ function ProductCard({ product }) {
       <div className="image">
         <img src={product.imageUrl} alt="" />
       </div>
+
       <div className="text mt-4">
         <p className="title">{product.title}</p>
         <p className="category">{product.category}</p>

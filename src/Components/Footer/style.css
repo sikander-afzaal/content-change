@@ -1,79 +1,176 @@
-.form-control:focus{
-    background-color: transparent;
-    border-color:transparent ;
+.form-control:focus {
+  background-color: transparent;
+  border-color: transparent;
 }
-.bg-footer{
-    background-color:#071116
-    ;
-    height: 400px;
+.bg-footer,
+.footer {
+  background-color: #071116;
 }
-.textfooter{
-  
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+  padding: 40px 20px;
+  gap: 40px;
+}
+.row-foot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding-inline: 40px;
+}
+.links,
+.social-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.links a,
+.social-div a {
+  color: white;
+  font-size: 20px;
+}
+.social-div a {
+  font-size: 25px;
+}
+@media screen and (max-width: 500px) {
+  .row-foot {
+    flex-direction: column;
+    gap: 20px;
+    padding: 0px;
+  }
+}
+.textfooter {
+  font-family: SangBleu OG Sans Trial;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 130%;
+  color: #f9f9f9;
+}
 
-font-family: SangBleu OG Sans Trial;
-font-style: normal;
-font-weight: 300;
-font-size: 48px;
-line-height: 130%;
-color: #F9F9F9
-;
+.lastheading {
+  color: white;
+  opacity: 1;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
-
-.lastheading{
-    color: #F9F9F9;
-    opacity: 0.5;
-    font-size: 12px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
- 
-}
-.line{
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    border-bottom: 1px solid #F9F9F9;
-    opacity: 0.5;
-    width: 100%;
-
+.line {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #f9f9f9;
+  opacity: 0.5;
+  width: 100%;
 }
 .dot {
-    height: 15px;
-    width: 15px;
-    background-color: transparent;
-    border-radius: 50%;
-    display: inline-block;
-    border: 1px solid #F9F9F9;
-    opacity: 0.5;
-  }
-.footerprivacy{
-    color: #F9F9F9;
-    margin-top: 10px;
-    font-size: 12px;
-    font-weight: lighter;
-    opacity: 0.5;
+  height: 15px;
+  width: 15px;
+  background-color: transparent;
+  border-radius: 50%;
+  display: inline-block;
+  border: 1px solid #f9f9f9;
+  opacity: 0.5;
 }
-.form-control{
-    border-right: 0px;
-    background-color: transparent;
-    border-top: 0px;
-    border-left: 0px;
-    border-color: #F9F9F9;
-    opacity: 0.5;
+.footerprivacy {
+  color: #f9f9f9;
+  margin-top: 10px;
+  font-size: 12px;
+  font-weight: lighter;
+  opacity: 0.5;
+}
+.form-control {
+  border-right: 0px;
+  background-color: transparent;
+  border-top: 0px;
+  border-left: 0px;
+  border-color: #f9f9f9;
+  opacity: 0.5;
 }
 .bg-light {
- 
-    padding: 0px;
-    margin: 0px;
+  padding: 0px;
+  margin: 0px;
 }
-.main121{
-    margin-left: -130px;
-
+.main121 {
+  margin-left: -130px;
 }
-
-
 
 #inner-circle {
+  position: relative;
+  background: #071116;
+  border-radius: 50%;
+  height: 66px;
+  width: 66px;
+  margin: 0px 0px 0px 100px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border: 1px solid #f9f9f9;
+  padding: 48px;
+}
+
+.footercenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form-group1 {
+  width: 42%;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1100px) {
+  .bg12 {
+    width: 104%;
+  }
+
+  .form-group1 {
+    width: 72%;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1300px) {
+  .bg12 {
+    width: 103%;
+  }
+
+  .form-group1 {
+    width: 55%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .navbar-toggler:not(:disabled):not(.disabled) {
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  .pad {
+    margin: 9px 20px;
+    padding: 0px;
+  }
+  .form-group1 {
+    width: 91%;
+  }
+  .main121 {
+    margin-left: 6px;
+  }
+
+  .textfooter {
+    font-family: SangBleu OG Sans Trial;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    color: #f9f9f9;
+  }
+  #inner-circle {
     position: relative;
     background: #071116;
     border-radius: 50%;
@@ -83,114 +180,7 @@ color: #F9F9F9
     justify-content: center;
     align-items: center;
     display: flex;
-    border: 1px solid #F9F9F9
-    ;
-    padding: 48px;
-
-}
-
-
-.footercenter{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-
-
-
-
-.form-group1{
-    width: 42%;
-}
-
-
-
-
-
-
-
-
-
-
-
-@media only screen and (min-width: 600px) and (max-width: 1100px) {
-    
-    .bg12{
-        width: 104%;
-    }
-    
-.form-group1{
-    width: 72%;
-}
-
-
-
-
-
-
-
-}
-
-
-@media only screen and (min-width: 1024px) and (max-width: 1300px) {
-    .bg12{
-        width: 103%;
-    }
-    
-.form-group1{
-    width: 55%;
-}
-
-
-
-
-}
-
-
-
-
-
-
-@media screen and (max-width: 600px) {
-    .navbar-toggler:not(:disabled):not(.disabled) {
-        cursor: pointer;
-        margin-right: 10px;
-    }
-    .pad {
-        margin: 9px 20px;
-        padding: 0px;
-    }
-    .form-group1{
-        width: 91%;
-    }
-    .main121 {
-        margin-left: 6px;
-    }
-    
-    .textfooter{
-  
-
-        font-family: SangBleu OG Sans Trial;
-        font-style: normal;
-        font-weight: 300;
-        font-size: 25px;
-        color: #F9F9F9
-        ;
-        }
-        #inner-circle {
-            position: relative;
-            background: #071116;
-            border-radius: 50%;
-            height: 66px;
-            width: 66px;
-            margin: 0px 0px 0px 100px;
-            justify-content: center;
-            align-items: center;
-            display: flex;
-            border: 1px solid #F9F9F9;
-            padding: 36px;
-        }
-    
+    border: 1px solid #f9f9f9;
+    padding: 36px;
   }
+}
