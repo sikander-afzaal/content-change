@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import { Route, Switch, useLocation } from "react-router-dom";
 
 // import ContactUs from './pages/Contact.js'
-import Navbar from "./Components/Navbar/Navbar.js";
+import Navbar from "./Components/Navbar/Navbar.jsx";
 import Footer from "./Components/Footer/Footer.js";
 import { createMuiTheme, ThemeProvider } from "@material-ui/core/styles";
 import * as locales from "@material-ui/core/locale";
