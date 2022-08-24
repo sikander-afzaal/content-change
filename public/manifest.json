@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "short_name": "SHDP Website",
   "name": "Small Heath Development Plan Website",
@@ -12,3 +13,19 @@
   "theme_color": "#000000",
   "background_color": "#ffffff"
 }
+=======
+{
+  "short_name": "SHDP Website",
+  "name": "Small Heath Development Plan Website",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "type": "image/x-icon"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
+>>>>>>> 737e7b7ad574b1e6ef3b42c512f3f72cee698c06

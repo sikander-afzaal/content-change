@@ -1,3 +1,4 @@
+
 .logo {
   width: 200px;
   height: 60px;
@@ -79,3 +80,51 @@ body {
     padding: 0px;
   }
 }
+=======
+.logo {
+  width: 200px;
+  height: 60px;
+}
+.wrapper {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+}
+.pad {
+  margin: 15px;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #1b3644 !important;
+  font-size: 16px;
+}
+.icon1 {
+  width: 20px;
+  height: 20px;
+}
+.bg-light {
+  background-color: white !important;
+  padding: 0px;
+  margin: 0px;
+}
+.navbar-toggler:not(:disabled):not(.disabled) {
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .navbar-toggler:not(:disabled):not(.disabled) {
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  .pad {
+    margin: 9px 20px;
+    padding: 0px;
+  }
+}
+

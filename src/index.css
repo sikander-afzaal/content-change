@@ -9,3 +9,14 @@ body {
 html {
   scroll-behavior: smooth;
 }
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: SangBleu OG Sans Trial !important;
+  font-style: normal !important;
+  font-weight: 300;
+  background-color: rgb(208, 247, 208) !important;
+}
+html {
+  scroll-behavior: smooth;
+}
