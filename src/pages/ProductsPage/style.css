@@ -10,7 +10,9 @@
   background-repeat: no-repeat;
   background-position: center;
   padding-left: 16vw;
+  gap: 20px;
 }
+
 .about-hero {
   display: flex;
   justify-content: center;
@@ -72,8 +74,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 10px;
   line-height: 1;
   margin: 0;
+  text-decoration: none;
   border: 1px solid transparent;
 }
 .banner-hero a:hover,

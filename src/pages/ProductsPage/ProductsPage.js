@@ -5,6 +5,9 @@ import TablePagination from "@material-ui/core/TablePagination";
 import { productsArray } from "./productsData";
 import { Link } from "react-router-dom";
 import Fade from "react-reveal/Fade";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCalendar } from "@fortawesome/free-regular-svg-icons";
+import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 function ProductsPage() {
   const [page, setPage] = useState(0);
   const [rowsPerPage, setRowsPerPage] = useState(10);
@@ -40,7 +43,12 @@ function ProductsPage() {
       <div className="banner-hero">
         <Fade top cascade delay={100}>
           <h1>Nataliia Beauty</h1>
-          <a href="#courses">Courses</a>
+          <a href="https://bumpix.net/en/nataliiabeauty" target="blank">
+            <FontAwesomeIcon icon={faCalendar} /> Book Online
+          </a>
+          <a href="https://wa.me/971529538096?text=" target="blank">
+            <FontAwesomeIcon icon={faWhatsapp} /> Chat with us
+          </a>
         </Fade>
       </div>{" "}
       <div className="logo-row">
