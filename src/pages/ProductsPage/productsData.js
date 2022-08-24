@@ -1,6 +1,7 @@
 export const productsArray = [
   {
     id: 1,
+    left: true,
     title: "CLASIC EXTENSION, FUNDAMENTAL COURSE",
     category: "Eyelash Extension",
     imageUrl: "/images/new/img1.png",
@@ -37,6 +38,7 @@ export const productsArray = [
   },
   {
     id: 2,
+    right: true,
     title: "Volume, upgraded course",
     category: "Eyelash Extension",
     imageUrl: "/images/new/img2.png",
@@ -57,6 +59,7 @@ export const productsArray = [
   },
   {
     id: 3,
+    left: true,
     title: "Kardashian Effect  ",
     category: "Eyelash Extension",
     imageUrl: "/images/new/img3.png",
@@ -66,6 +69,7 @@ export const productsArray = [
   },
   {
     id: 4,
+    right: true,
     title: "Wet Effect",
     category: "Eyelash Extension",
     imageUrl: "/images/new/img4.png",
@@ -75,6 +79,7 @@ export const productsArray = [
   },
   {
     id: 5,
+    left: true,
     title: "Eyeliner Effect  ",
     category: "Eyelash Extension",
     imageUrl: "/images/new/img5.png",
@@ -84,6 +89,7 @@ export const productsArray = [
   },
   {
     id: 6,
+    right: true,
     title: "Colored Lashes ",
     category: "Eyelash Extension",
     imageUrl: "/images/new/img6.png",
@@ -93,6 +99,7 @@ export const productsArray = [
   },
   {
     id: 7,
+    left: true,
     slideImg1: "/images/new/slideImg1.png",
     title: "Eyeliner + Lips shading course",
     category: "SEMI PERMANENT MAKEUP",
@@ -141,6 +148,7 @@ export const productsArray = [
   },
   {
     id: 8,
+    right: true,
     title: "MICROSHADING EYEBROWS intensive COURSE ",
     category: "SEMI PERMANENT MAKEUP",
     imageUrl: "/images/new/img8.png",
@@ -181,6 +189,7 @@ export const productsArray = [
   },
   {
     id: 9,
+    left: true,
     title: "MANICURE COURSE, BEGGINER",
     category: "NAILS",
     imageUrl: "/images/new/img9.png",
@@ -247,6 +256,7 @@ export const productsArray = [
   },
   {
     id: 10,
+    right: true,
     title: "SMART PEDICURE COURSE",
     category: "NAILS",
     imageUrl: "/images/new/img10.png",

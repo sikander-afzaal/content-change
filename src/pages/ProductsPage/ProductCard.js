@@ -6,7 +6,7 @@ import {
 } from "@material-ui/core/styles";
 import Button from "@material-ui/core/Button";
 import { Link } from "react-router-dom";
-
+import Fade from "react-reveal/Fade";
 import "./style.css";
 
 function ProductCard({ product }) {
@@ -26,20 +26,23 @@ function ProductCard({ product }) {
       },
     },
   }))(Button);
-  return (
-    <div className="product-card">
-      <div className="image">
-        <img src={product.imageUrl} alt="" />
-      </div>
 
-      <div className="text mt-4">
-        <p className="title">{product.title}</p>
-        <p className="category">{product.category}</p>
-        <Link className="nav-link" to={`/productsdetails/${product.id}`}>
-          <ColorButton variant="outlined">Explore</ColorButton>
-        </Link>
+  return (
+    <Fade left={product.left} right={product.right}>
+      <div className="product-card">
+        <div className="image">
+          <img src={product.imageUrl} alt="" />
+        </div>
+
+        <div className="text mt-4">
+          <p className="title">{product.title}</p>
+          <p className="category">{product.category}</p>
+          <Link className="nav-link" to={`/productsdetails/${product.id}`}>
+            <ColorButton variant="outlined">Explore</ColorButton>
+          </Link>
+        </div>
       </div>
-    </div>
+    </Fade>
   );
 }
 

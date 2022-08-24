@@ -4,7 +4,7 @@ import ProductCard from "./ProductCard";
 import TablePagination from "@material-ui/core/TablePagination";
 import { productsArray } from "./productsData";
 import { Link } from "react-router-dom";
-
+import Fade from "react-reveal/Fade";
 function ProductsPage() {
   const [page, setPage] = useState(0);
   const [rowsPerPage, setRowsPerPage] = useState(10);
@@ -38,8 +38,10 @@ function ProductsPage() {
   return (
     <div>
       <div className="banner-hero">
-        <h1>Nataliia Beauty</h1>
-        <a href="#courses">Courses</a>
+        <Fade top cascade delay={100}>
+          <h1>Nataliia Beauty</h1>
+          <a href="#courses">Courses</a>
+        </Fade>
       </div>{" "}
       <div className="logo-row">
         <img src="./images/logo.png" alt="" />
@@ -51,12 +53,16 @@ function ProductsPage() {
         <img src="./images/logo.png" alt="" />
       </div>
       <div className="about-hero">
-        <h1>About Us</h1>
-        <Link to="/about">About</Link>
+        <Fade right cascade delay={1000}>
+          <h1>About Us</h1>
+          <Link to="/about">About</Link>
+        </Fade>
       </div>
       <div className="products-section" id="courses">
         <div className="container flex">
-          <h1 className="heading-cont">Courses</h1>
+          <Fade top>
+            <h1 className="heading-cont">Courses</h1>
+          </Fade>
           <div
             className="row"
             style={{
