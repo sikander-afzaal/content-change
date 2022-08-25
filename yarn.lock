@@ -1639,6 +1639,23 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
+"@splidejs/react-splide@^0.7.8":
+  "integrity" "sha512-zXBIsa8v3h9iv8KKxEdbN+RveJKQU/VE7Iev9GoXiFxnCzN/luyySsF1FZz/lYw9B+eWiLXehOBcWLzLo+05ng=="
+  "resolved" "https://registry.npmjs.org/@splidejs/react-splide/-/react-splide-0.7.8.tgz"
+  "version" "0.7.8"
+  dependencies:
+    "@splidejs/splide" "^4.0.7"
+
+"@splidejs/splide-extension-auto-scroll@^0.4.2":
+  "integrity" "sha512-kIKRhs1Gj5a6xKEi/h/7i/G20+kJgpfzvU3nPyLrAUYdK3Q3w8kxJ4DgeMJHzlF5iachnPUe2zXdWMhZHCHYfg=="
+  "resolved" "https://registry.npmjs.org/@splidejs/splide-extension-auto-scroll/-/splide-extension-auto-scroll-0.4.2.tgz"
+  "version" "0.4.2"
+
+"@splidejs/splide@^4.0.7":
+  "integrity" "sha512-aJAOGJN2lwjwou3mxQofc3uhe+RXpw9in0WfysFX7AMT/mj7wSqoetfm41s7J8jU6FJ3ZWaLYgSJIpBAQ5wyqw=="
+  "resolved" "https://registry.npmjs.org/@splidejs/splide/-/splide-4.0.7.tgz"
+  "version" "4.0.7"
+
 "@surma/rollup-plugin-off-main-thread@^1.1.1":
   "version" "1.4.2"
   dependencies:

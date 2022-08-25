@@ -51,52 +51,52 @@ function Navbar() {
                 <Link to={"/team"} className="nav-link">
                   Team
                 </Link>
+              </li>{" "}
+              <li
+                className="pad "
+                style={{
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  listStyle: "none",
+                  paddingRight: "20px",
+                }}
+              >
+                <img src="/images/icon.png" className="icon1" />
+                <li>En</li>
+              </li>{" "}
+              <li className="pad header-social">
+                <a
+                  target="blank"
+                  href="https://www.instagram.com/nataliia.beauty/?hl=en"
+                >
+                  <FontAwesomeIcon icon={faInstagram} />
+                </a>
+                <a
+                  target="blank"
+                  href="https://www.facebook.com/profile.php?id=100063574540308"
+                >
+                  {" "}
+                  <FontAwesomeIcon icon={faFacebook} />
+                </a>
+                <a href="https://wa.me/971529538096?text=" target="blank">
+                  {" "}
+                  <FontAwesomeIcon icon={faWhatsapp} />
+                </a>
               </li>
             </ul>
-
-            <li
-              className="pad "
-              style={{
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center",
-                listStyle: "none",
-                paddingRight: "20px",
-              }}
-            >
-              <img src="/images/icon.png" className="icon1" />
-              <li>En</li>
-            </li>
-
-            <li className="pad header-social">
-              <a
-                target="blank"
-                href="https://www.instagram.com/nataliia.beauty/?hl=en"
-              >
-                <FontAwesomeIcon icon={faInstagram} />
-              </a>
-              <a
-                target="blank"
-                href="https://www.facebook.com/profile.php?id=100063574540308"
-              >
-                {" "}
-                <FontAwesomeIcon icon={faFacebook} />
-              </a>
-              <a href="https://wa.me/971529538096?text=" target="blank">
-                {" "}
-                <FontAwesomeIcon icon={faWhatsapp} />
-              </a>
-            </li>
           </div>
         </nav>
         <div className="location">
           <div className="box-loc">
             <FontAwesomeIcon icon={faLocationDot} />
-            <h2>Park View Tower, JVC</h2>
+            <a href="https://goo.gl/maps/NtWHwvJHreroUFuq9" target="blank">
+              Park View Tower, JVC
+            </a>
           </div>
           <div className="box-loc">
             <FontAwesomeIcon icon={faPhone} />
-            <a href="https://wa.me/971529538096?text=" target="blank">
+            <a href="tel:+971529538096" target="blank">
               +971 52 953 8096
             </a>
           </div>
