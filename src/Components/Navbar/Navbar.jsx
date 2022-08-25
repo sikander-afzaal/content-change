@@ -78,7 +78,7 @@ function Navbar() {
             <div className="box-loc">
               <FontAwesomeIcon icon={faLocationDot} />
               <a href="https://goo.gl/maps/NtWHwvJHreroUFuq9" target="blank">
-                Park View Tower, JVC
+                Light Commercial Tower - Arjan dubai land.
               </a>
             </div>
             <div className="box-loc">

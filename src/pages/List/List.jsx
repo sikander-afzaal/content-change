@@ -6,14 +6,14 @@ function List() {
       <div className="list">
         <h1>Our Services</h1>
         <div className="row-list">
+          <a href="#eye">
+            <span>Eyelash Services</span>
+          </a>
           <a href="#makeup">
             <span>Semi Permanent Makeup Services</span>
           </a>
           <a href="#nails">
             <span>Nail Services</span>
-          </a>
-          <a href="#eye">
-            <span>Eyelash Services</span>
           </a>
         </div>
         <div className="price-list-box" id="eye">

@@ -8,6 +8,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #f8f9fa !important;
+}
+.wrapper .container {
+  width: 100% !important;
+  max-width: 1300px !important;
+  margin: 0px !important;
+  padding: 0px !important;
 }
 .header-social {
   display: flex;
@@ -45,7 +52,7 @@ body {
 }
 .location {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
   gap: 20px;
   padding: 15px 0px;
@@ -97,6 +104,9 @@ body {
   .header-social {
     width: 100%;
     gap: 20px;
+  }
+  .row-loc {
+    flex-direction: column;
   }
   .header-social a {
     font-size: 23px;
