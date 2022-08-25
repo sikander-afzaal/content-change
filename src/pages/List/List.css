@@ -41,13 +41,13 @@
   color: white;
 }
 .row-list a:nth-child(1) {
-  background-image: url("./hair.jpg");
+  background-image: url("./eye.jpg");
 }
 .row-list a:nth-child(2) {
-  background-image: url("./nails.jpg");
+  background-image: url("./hair.jpg");
 }
 .row-list a:nth-child(3) {
-  background-image: url("./eye.jpg");
+  background-image: url("./nails.jpg");
 }
 .row-list a span {
   background-color: rgba(0, 0, 0, 0.4);
