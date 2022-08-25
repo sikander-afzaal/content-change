@@ -43,6 +43,11 @@ function Navbar() {
                 </Link>
               </li>
               <li className="nav-item pad">
+                <Link className="nav-link" to="/list">
+                  Price List
+                </Link>
+              </li>
+              <li className="nav-item pad">
                 <Link to={"/about"} className="nav-link">
                   About-us
                 </Link>
@@ -65,39 +70,42 @@ function Navbar() {
                 <img src="/images/icon.png" className="icon1" />
                 <li>En</li>
               </li>{" "}
-              <li className="pad header-social">
-                <a
-                  target="blank"
-                  href="https://www.instagram.com/nataliia.beauty/?hl=en"
-                >
-                  <FontAwesomeIcon icon={faInstagram} />
-                </a>
-                <a
-                  target="blank"
-                  href="https://www.facebook.com/profile.php?id=100063574540308"
-                >
-                  {" "}
-                  <FontAwesomeIcon icon={faFacebook} />
-                </a>
-                <a href="https://wa.me/971529538096?text=" target="blank">
-                  {" "}
-                  <FontAwesomeIcon icon={faWhatsapp} />
-                </a>
-              </li>
             </ul>
           </div>
         </nav>
         <div className="location">
-          <div className="box-loc">
-            <FontAwesomeIcon icon={faLocationDot} />
-            <a href="https://goo.gl/maps/NtWHwvJHreroUFuq9" target="blank">
-              Park View Tower, JVC
-            </a>
+          <div className="row-loc">
+            <div className="box-loc">
+              <FontAwesomeIcon icon={faLocationDot} />
+              <a href="https://goo.gl/maps/NtWHwvJHreroUFuq9" target="blank">
+                Park View Tower, JVC
+              </a>
+            </div>
+            <div className="box-loc">
+              <FontAwesomeIcon icon={faPhone} />
+              <a href="tel:+971529538096" target="blank">
+                +971 52 953 8096
+              </a>
+            </div>
           </div>
-          <div className="box-loc">
-            <FontAwesomeIcon icon={faPhone} />
-            <a href="tel:+971529538096" target="blank">
-              +971 52 953 8096
+
+          <div className="header-social">
+            <a
+              target="blank"
+              href="https://www.instagram.com/nataliia.beauty/?hl=en"
+            >
+              <FontAwesomeIcon icon={faInstagram} />
+            </a>
+            <a
+              target="blank"
+              href="https://www.facebook.com/profile.php?id=100063574540308"
+            >
+              {" "}
+              <FontAwesomeIcon icon={faFacebook} />
+            </a>
+            <a href="https://wa.me/971529538096?text=" target="blank">
+              {" "}
+              <FontAwesomeIcon icon={faWhatsapp} />
             </a>
           </div>
         </div>

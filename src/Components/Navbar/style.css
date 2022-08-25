@@ -1,4 +1,3 @@
-
 .logo {
   width: 200px;
   height: 60px;
@@ -51,6 +50,13 @@ body {
   gap: 20px;
   padding: 15px 0px;
   border-top: 1px solid black;
+  padding-right: 20px;
+}
+.row-loc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
 .box-loc {
   display: flex;
@@ -70,52 +76,6 @@ body {
   line-height: 1;
   margin: 0;
 }
-@media screen and (max-width: 600px) {
-  .navbar-toggler:not(:disabled):not(.disabled) {
-    cursor: pointer;
-    margin-right: 10px;
-  }
-  .pad {
-    margin: 9px 20px;
-    padding: 0px;
-  }
-}
-=======
-.logo {
-  width: 200px;
-  height: 60px;
-}
-.wrapper {
-  width: 100%;
-  background-color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-body {
-  margin: 0px;
-  padding: 0px;
-}
-.pad {
-  margin: 15px;
-}
-.navbar-light .navbar-nav .nav-link {
-  color: #1b3644 !important;
-  font-size: 16px;
-}
-.icon1 {
-  width: 20px;
-  height: 20px;
-}
-.bg-light {
-  background-color: white !important;
-  padding: 0px;
-  margin: 0px;
-}
-.navbar-toggler:not(:disabled):not(.disabled) {
-  cursor: pointer;
-  margin-right: 10px;
-}
 
 @media screen and (max-width: 600px) {
   .navbar-toggler:not(:disabled):not(.disabled) {
@@ -126,5 +86,19 @@ body {
     margin: 9px 20px;
     padding: 0px;
   }
+  .location {
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+    padding: 20px 0px;
+    justify-content: center;
+    height: auto;
+  }
+  .header-social {
+    width: 100%;
+    gap: 20px;
+  }
+  .header-social a {
+    font-size: 23px;
+  }
 }
-

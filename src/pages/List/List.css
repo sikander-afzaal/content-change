@@ -1,0 +1,83 @@
+.list-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 40px 20px;
+}
+.list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  max-width: 1140px;
+}
+.list h1 {
+  font-size: 50px;
+}
+.row-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.row-list a {
+  width: 360px;
+  height: 240px;
+  border-radius: 20px;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  overflow: hidden;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+.row-list a:hover {
+  color: white;
+}
+.row-list a:nth-child(1) {
+  background-image: url("./hair.jpg");
+}
+.row-list a:nth-child(2) {
+  background-image: url("./nail.jpg");
+}
+.row-list a:nth-child(3) {
+  background-image: url("./eye.jpg");
+}
+.row-list a span {
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  padding: 20px;
+}
+.price-list-box {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 900px;
+  gap: 20px;
+  margin-top: 80px;
+  padding: 20px;
+}
+.price-list-box p {
+  font-size: 20px;
+}
+.price-list-box h2 {
+  align-self: center;
+  font-size: 30px;
+  margin-bottom: 20px;
+  text-decoration: underline;
+}
+@media screen and (max-width: 500px) {
+  .price-list-box p {
+    font-size: 18px;
+  }
+}
