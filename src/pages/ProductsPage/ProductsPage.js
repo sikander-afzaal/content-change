@@ -122,6 +122,81 @@ function ProductsPage() {
           </div>
         </div>
       </div>
+      <Splide
+        options={{
+          type: "loop",
+          width: "100%",
+          perPage: "auto",
+          arrows: false,
+          autoplay: true,
+          pagination: false,
+          perMove: 1,
+          perPage: 1,
+          drag: true,
+        }}
+        className="vid-slider"
+      >
+        <SplideSlide>
+          <div className="vid-wrapper">
+            <video
+              playsInline
+              muted
+              controls
+              loop
+              autoPlay
+              src="./images/vid (1).mp4"
+            />
+          </div>
+        </SplideSlide>
+        <SplideSlide>
+          <div className="vid-wrapper">
+            <video
+              playsInline
+              muted
+              controls
+              loop
+              autoPlay
+              src="./images/vid (2).mp4"
+            />
+          </div>
+        </SplideSlide>
+        <SplideSlide>
+          <div className="vid-wrapper">
+            <video
+              playsInline
+              muted
+              controls
+              loop
+              autoPlay
+              src="./images/vid (3).mp4"
+            />
+          </div>
+        </SplideSlide>
+        <SplideSlide>
+          <div className="vid-wrapper">
+            <video
+              playsInline
+              muted
+              controls
+              loop
+              autoPlay
+              src="./images/vid (4).mp4"
+            />
+          </div>
+        </SplideSlide>
+        <SplideSlide>
+          <div className="vid-wrapper">
+            <video
+              playsInline
+              muted
+              controls
+              loop
+              autoPlay
+              src="./images/vid (5).mp4"
+            />
+          </div>
+        </SplideSlide>
+      </Splide>
     </div>
   );
 }
