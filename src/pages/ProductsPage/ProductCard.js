@@ -6,7 +6,6 @@ import {
 } from "@material-ui/core/styles";
 import Button from "@material-ui/core/Button";
 import { Link } from "react-router-dom";
-import Fade from "react-reveal/Fade";
 import "./style.css";
 
 function ProductCard({ product }) {
@@ -15,8 +14,10 @@ function ProductCard({ product }) {
       color: "#1B3644",
       backgroundColor: "white",
       border: "0.7px solid #1B3644",
-      borderRadius: "50px",
-      padding: "5px 10px",
+      borderRadius: "100vh",
+      padding: "0px",
+      height: "50px",
+      width: "100px",
       textTransform: "Capitalize",
       "&:hover": {
         backgroundColor: "white",
@@ -29,16 +30,17 @@ function ProductCard({ product }) {
 
   return (
     <div className="product-card">
-      <div className="image">
-        <img src={product.imageUrl} alt="" />
-      </div>
-
-      <div className="text mt-4">
-        <p className="title">{product.title}</p>
-        <p className="category">{product.category}</p>
-        <Link className="nav-link" to={`/productsdetails/${product.id}`}>
-          <ColorButton variant="outlined">Explore</ColorButton>
-        </Link>
+      <img src={product.imageUrl} alt="" />
+      <div className="card-text">
+        <h1 className="title">{product.title}</h1>
+        <p className="duration">{product.duration}</p>
+        <p>{product.price}</p>
+        <div className="row">
+          <ColorButton variant="outlined">Book Now</ColorButton>
+          <Link className="nav-link" to={`/productsdetails/${product.id}`}>
+            <ColorButton variant="outlined">View Details</ColorButton>
+          </Link>
+        </div>
       </div>
     </div>
   );

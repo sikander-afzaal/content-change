@@ -99,11 +99,121 @@ function ProductsPage() {
           <button>Send</button>
         </form>
       </div>
-      {displayProducts.map((v, i) => (
-        <div key={i} className="col-md-4 p-0">
-          <ProductCard product={v} id={i} />
-        </div>
-      ))}
+      <div className="courses about-hero">
+        <h2>Our Courses</h2>
+        <Splide
+          options={{
+            width: "100%",
+            perPage: 4,
+            perMove: 1,
+            gap: "1rem",
+            arrows: true,
+            drag: true,
+            type: "loop",
+            pagination: false,
+            breakpoints: {
+              1500: {
+                perPage: 3,
+              },
+              1100: {
+                perPage: 2,
+              },
+              725: {
+                perPage: 1.5,
+              },
+              572: {
+                perPage: 1,
+              },
+            },
+          }}
+        >
+          {productsArray.map((v, i) => {
+            return (
+              <SplideSlide key={v.id}>
+                <ProductCard product={v} id={i} />
+              </SplideSlide>
+            );
+          })}
+        </Splide>
+      </div>
+      <div className="team-hero about-hero">
+        <h2>Our Team</h2>{" "}
+        <p>
+          Our Trainer team is highly qualified and International certified. They
+          are Experts in all beauty treatments, very enthusiastic and
+          supportive. Their goal is to spread beauty by giving professional
+          beauticians to the world by sharing their knowledge and experience.
+        </p>
+        <Splide
+          options={{
+            width: "100%",
+            perPage: 3,
+            perMove: 1,
+            gap: "1rem",
+            arrows: true,
+            drag: true,
+            type: "loop",
+            pagination: false,
+            breakpoints: {
+              1257: {
+                perPage: 2,
+              },
+              760: {
+                perPage: 1.5,
+              },
+              580: {
+                perPage: 1,
+              },
+            },
+          }}
+        >
+          <SplideSlide>
+            <div className="team-box">
+              <img src="./images/new/team1.png" alt="" />
+              <h2>EYELASH EXTENSION TRAINER</h2>
+              <p>NATALIIA</p>
+              <p>Ukrainian </p>
+              <p> pro-certified coach </p>
+              <p>10 years experience in eyelashes </p>
+              <p>CEO at NATALIIA BEAUTY TRAINING</p>
+              <p>Dubai winner</p>
+              <p>More than 50 happy students</p>
+            </div>
+          </SplideSlide>
+          <SplideSlide>
+            <div className="team-box">
+              <img src="./images/new/team2.png" alt="" />
+              <h2>SEMI PERMANENT MAKEUP TRAINER</h2>
+              <p>NATALIIA, from Ukraine. </p>
+              <p>A certified permanent makeup artist</p>
+              <p>with 10 years experience. </p>
+              <p>
+                She strongly believes in deep study, dedication, practice and
+                continuous learning if you want to build a career in beauty
+                industry.
+              </p>
+            </div>
+          </SplideSlide>
+          <SplideSlide>
+            <div className="team-box">
+              <img src="./images/new/team3.png" alt="" />
+              <h2>NAILS TRAINER</h2>
+              <p>
+                BALNUR, from Kazakhstan has been in the beauty industry since
+                last 5 years. Today, we take pride in saying that now she is a
+                successful nail technician as well as trainer. She is very
+                passionate about nails as a professional nail trainer
+              </p>
+            </div>
+          </SplideSlide>
+        </Splide>
+      </div>
+      <div className="fixed-bottom-what">
+        <a href="https://wa.me/971529538096?text=" target="blank">
+          {" "}
+          <FontAwesomeIcon icon={faWhatsapp} />
+        </a>
+      </div>
     </>
   );
 }
