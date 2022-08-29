@@ -1,16 +1,23 @@
 .banner-hero {
   display: flex;
-  justify-content: center;
-  align-items: flex-start;
+  justify-content: flex-end;
+  align-items: center;
   flex-direction: column;
   width: 100%;
   height: max(100vh, 800px);
-  background-image: url("./banner.jpeg");
+  background-image: url("./about\ \(1\).png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  padding-left: 16vw;
+  padding-bottom: 170px;
   gap: 20px;
+}
+.banner-hero h1 {
+  text-transform: uppercase;
+  color: black;
+  font-size: 60px;
+  background-color: white;
+  padding: 20px;
 }
 .vid-slider {
   padding: 60px 20px;
@@ -35,84 +42,77 @@
 .about-hero {
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
   flex-direction: column;
   width: 100%;
-  height: max(100vh, 800px);
-  background-image: url("./about.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  padding-right: 16vw;
+  padding: 100px 20px;
+  gap: 20px;
+  text-align: center;
 }
-.logo-row {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  overflow: hidden;
-  margin: 60px 0px;
-  margin-left: -100px;
+.about-hero h2 {
+  color: red;
+  font-size: 60px;
 }
-.logo-row img {
-  width: 370px;
-  object-fit: contain;
-}
-.banner-hero h1,
-.about-hero h1 {
-  font-size: 70px;
-  text-transform: uppercase;
+.about-hero p {
   color: white;
+  font-size: 30px;
 }
-.about-hero h1 {
+.why p {
+  max-width: 1200px;
   color: black;
 }
-@media screen and (max-width: 1030px) {
-  .banner-hero,
-  .about-hero h1 {
-    padding: 0;
-    align-items: center;
-  }
-}
-@media screen and (max-width: 675px) {
-  .banner-hero h1,
-  .about-hero h1 {
-    font-size: 40px;
-  }
-}
-.banner-hero a,
-.about-hero a {
-  width: 200px;
-  height: 50px !important;
-  font-size: 20px;
-  cursor: pointer;
-  background-color: black;
-  color: white;
-  transition: all 0.3s ease-in-out;
-  text-transform: uppercase;
-  text-decoration: none;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  line-height: 1;
-  margin: 0;
-  text-decoration: none;
-  border: 1px solid transparent;
-}
-.banner-hero a:hover,
-.about-hero a:hover {
-  background-color: white;
-  color: black;
-  border-color: black;
-}
-.flex {
+.why form {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 10px;
-  margin-top: 50px;
+  width: 100%;
+  max-width: 700px;
+  gap: 20px;
 }
+.why form input {
+  width: 100%;
+  padding: 10px;
+  height: 50px;
+  background-color: transparent;
+  color: white;
+  border: none;
+  border-bottom: 1px solid black;
+  font-size: 20px;
+}
+.why form button {
+  width: 100%;
+  border: 1px solid black;
+  background-color: white;
+  border-radius: 10px;
+  height: 40px;
+  font-size: 20px;
+}
+.why form input::placeholder {
+  color: white;
+}
+.about-hero h3 {
+  color: white;
+  font-size: 35px;
+}
+.about-hero .row {
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.about-hero .row:last-child img {
+  max-width: 100%;
+}
+@media screen and (max-width: 675px) {
+  .banner-hero h1 {
+    font-size: 40px;
+  }
+  .about-hero h3,
+  .about-hero p {
+    font-size: 25px;
+  }
+}
+
 .heading-cont {
   font-size: 60px;
   font-weight: 500;

@@ -28,21 +28,19 @@ function ProductCard({ product }) {
   }))(Button);
 
   return (
-    <Fade left={product.left} right={product.right}>
-      <div className="product-card">
-        <div className="image">
-          <img src={product.imageUrl} alt="" />
-        </div>
-
-        <div className="text mt-4">
-          <p className="title">{product.title}</p>
-          <p className="category">{product.category}</p>
-          <Link className="nav-link" to={`/productsdetails/${product.id}`}>
-            <ColorButton variant="outlined">Explore</ColorButton>
-          </Link>
-        </div>
+    <div className="product-card">
+      <div className="image">
+        <img src={product.imageUrl} alt="" />
       </div>
-    </Fade>
+
+      <div className="text mt-4">
+        <p className="title">{product.title}</p>
+        <p className="category">{product.category}</p>
+        <Link className="nav-link" to={`/productsdetails/${product.id}`}>
+          <ColorButton variant="outlined">Explore</ColorButton>
+        </Link>
+      </div>
+    </div>
   );
 }
 

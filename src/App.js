@@ -7,7 +7,7 @@ import Navbar from "./Components/Navbar/Navbar.jsx";
 import Footer from "./Components/Footer/Footer.js";
 import { createMuiTheme, ThemeProvider } from "@material-ui/core/styles";
 import * as locales from "@material-ui/core/locale";
-import ProductsPage from "./pages/ProductsPage/ProductsPage.js";
+import ProductsPage from "./pages/ProductsPage/ProductsPage.jsx";
 import ProductPageDesktop from "./pages/productpagedesktop/productpagedesktop";
 import Team from "./pages/Team/Team.jsx";
 import About from "./pages/About/About.jsx";
