@@ -51,6 +51,11 @@ function Navbar() {
                 <Link to={"/about"} className="nav-link">
                   About-us
                 </Link>
+              </li>
+              <li className="nav-item pad">
+                <Link to={"/saloon"} className="nav-link">
+                  Saloon
+                </Link>
               </li>{" "}
               <li className="nav-item pad">
                 <Link to={"/team"} className="nav-link">

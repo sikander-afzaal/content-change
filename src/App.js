@@ -12,6 +12,7 @@ import ProductPageDesktop from "./pages/productpagedesktop/productpagedesktop";
 import Team from "./pages/Team/Team.jsx";
 import About from "./pages/About/About.jsx";
 import List from "./pages/List/List.jsx";
+import Saloon from "./pages/Saloon/Saloon.jsx";
 
 function App() {
   const [locale, setLocale] = useState("enUS");
@@ -34,6 +35,7 @@ function App() {
             exact
           />
           <Route path="/team" component={Team} exact />
+          <Route path="/saloon" component={Saloon} exact />
           <Route path="/about" component={About} exact />
           <Route path="/list" component={List} exact />
         </Switch>

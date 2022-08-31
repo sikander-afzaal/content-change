@@ -170,39 +170,67 @@ function ProductsPage() {
           <SplideSlide>
             <div className="team-box">
               <img src="./images/new/team1.png" alt="" />
-              <h2>EYELASH EXTENSION TRAINER</h2>
-              <p>NATALIIA</p>
-              <p>Ukrainian </p>
-              <p> pro-certified coach </p>
-              <p>10 years experience in eyelashes </p>
-              <p>CEO at NATALIIA BEAUTY TRAINING</p>
-              <p>Dubai winner</p>
-              <p>More than 50 happy students</p>
+              <h2>NATALIIA</h2>
+              <p>
+                EYELASH EXTENSION TRAINER From UKRAINE with 10 years of
+                experience. <br /> CEO at NATALIIA BEAUTY TRAINING <br /> Dubai
+                winner <br />
+                More than 50 happy students
+              </p>
             </div>
           </SplideSlide>
           <SplideSlide>
             <div className="team-box">
               <img src="./images/new/team2.png" alt="" />
-              <h2>SEMI PERMANENT MAKEUP TRAINER</h2>
-              <p>NATALIIA, from Ukraine. </p>
-              <p>A certified permanent makeup artist</p>
-              <p>with 10 years experience. </p>
+              <h2>NATALIIA</h2>
               <p>
-                She strongly believes in deep study, dedication, practice and
-                continuous learning if you want to build a career in beauty
-                industry.
+                SPMU technician From UKRAINE with 10 years of experience. <br />{" "}
+                very friendly and cute <br /> Mom of one boy
               </p>
             </div>
           </SplideSlide>
           <SplideSlide>
             <div className="team-box">
               <img src="./images/new/team3.png" alt="" />
-              <h2>NAILS TRAINER</h2>
+              <h2>BALNUR</h2>
               <p>
-                BALNUR, from Kazakhstan has been in the beauty industry since
-                last 5 years. Today, we take pride in saying that now she is a
-                successful nail technician as well as trainer. She is very
-                passionate about nails as a professional nail trainer
+                Manicure | pedicure technician From Kazakhstan with 8 years of
+                experience. <br /> very friendly and cute <br /> Only Quality
+                Service
+              </p>
+            </div>
+          </SplideSlide>
+          <SplideSlide>
+            <div className="team-box">
+              <img src="./images/new/team4.png" alt="" />
+              <h2>ELINA</h2>
+              <p>
+                Eyelash | eyebrow technician From Kazakhstan with 6 years of
+                experience. <br /> 1 year with Nataliia Beauty <br /> Very
+                Friendly and communicable <br /> Always stylish Mom of two boys
+              </p>
+            </div>
+          </SplideSlide>
+          <SplideSlide>
+            <div className="team-box">
+              <img src="./images/new/team5.png" alt="" />
+              <h2>ELMIRA</h2>
+              <p>
+                Eyelash | eyebrow technician From Kazakhstan with 3 years of
+                experience. <br />
+                very friendly and cute <br /> New in Dubai
+              </p>
+            </div>
+          </SplideSlide>
+          <SplideSlide>
+            <div className="team-box">
+              <img src="./images/new/team6.png" alt="" />
+              <h2>MIRA</h2>
+              <p>
+                Eyelash | eyebrow technician From Kyrgyzstan with 5 years of
+                experience.
+                <br /> 1 year with Nataliia Beauty <br /> Very Friendly and
+                communicable <br /> Always cute Mom of two boys
               </p>
             </div>
           </SplideSlide>
