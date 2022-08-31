@@ -130,6 +130,74 @@ function Saloon() {
           </div>
         </SplideSlide>
       </Splide>
+      <div className="section-sal">
+        <h1 className="sal-head">Why Customers are choosing us</h1>
+        <Splide
+          options={{
+            width: "100%",
+            perPage: 3,
+            perMove: 1,
+            gap: "1rem",
+            arrows: true,
+            drag: true,
+            type: "loop",
+            pagination: false,
+            breakpoints: {
+              1547: {
+                perPage: 2,
+              },
+              1100: {
+                perPage: 1.5,
+              },
+              900: {
+                perPage: 1,
+              },
+            },
+          }}
+        >
+          <SplideSlide>
+            <img
+              style={{ width: "100%" }}
+              src="./images/new/why-choose.png"
+              alt=""
+            />
+          </SplideSlide>
+        </Splide>
+      </div>
+      <div className="section-sal">
+        <h1 className="sal-head">Feedbacks</h1>
+        <Splide
+          options={{
+            width: "100%",
+            perPage: 3,
+            perMove: 1,
+            gap: "1rem",
+            arrows: true,
+            drag: true,
+            type: "loop",
+            pagination: false,
+            breakpoints: {
+              1547: {
+                perPage: 2,
+              },
+              1100: {
+                perPage: 1.5,
+              },
+              900: {
+                perPage: 1,
+              },
+            },
+          }}
+        >
+          <SplideSlide>
+            <img
+              style={{ width: "100%" }}
+              src="./images/new/feedback.png"
+              alt=""
+            />
+          </SplideSlide>
+        </Splide>
+      </div>
     </div>
   );
 }
