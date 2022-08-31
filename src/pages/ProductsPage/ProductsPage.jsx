@@ -10,7 +10,6 @@ import { faCalendar } from "@fortawesome/free-regular-svg-icons";
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/dist/css/splide.min.css";
-import { AutoScroll } from "@splidejs/splide-extension-auto-scroll";
 function ProductsPage() {
   const [page, setPage] = useState(0);
   const [rowsPerPage, setRowsPerPage] = useState(10);
