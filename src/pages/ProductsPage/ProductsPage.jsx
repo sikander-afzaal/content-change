@@ -5,9 +5,7 @@ import TablePagination from "@material-ui/core/TablePagination";
 import { productsArray } from "./productsData";
 import { Link } from "react-router-dom";
 import Fade from "react-reveal/Fade";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCalendar } from "@fortawesome/free-regular-svg-icons";
-import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
+
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/dist/css/splide.min.css";
 function ProductsPage() {
@@ -51,8 +49,9 @@ function ProductsPage() {
           <a href="https://wa.me/971529538096?text=" target="blank">
             <FontAwesomeIcon icon={faWhatsapp} /> Chat with us
           </a> */}
-          <h1>Salon</h1>
-          <h1>Academy</h1>
+          <Link to={"/saloon"}>
+            Salon <br /> Academy
+          </Link>
         </Fade>
       </div>{" "}
       <div className="about-hero">
@@ -234,12 +233,6 @@ function ProductsPage() {
             </div>
           </SplideSlide>
         </Splide>
-      </div>
-      <div className="fixed-bottom-what">
-        <a href="https://wa.me/971529538096?text=" target="blank">
-          {" "}
-          <FontAwesomeIcon icon={faWhatsapp} />
-        </a>
       </div>
     </>
   );

@@ -81,3 +81,24 @@
   padding: 10px 20px;
   font-size: 18px;
 }
+.service-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  gap: 10px;
+}
+.service-slide h1 {
+  font-weight: 500;
+  font-size: 30px;
+}
+.sal-head2 {
+  font-size: 50px;
+  text-decoration: underline;
+  font-weight: bold;
+}
+.map {
+  max-width: 90%;
+  object-fit: contain;
+}

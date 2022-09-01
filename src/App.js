@@ -1,7 +1,8 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import { useEffect, useState } from "react";
 import { Route, Switch, useLocation } from "react-router-dom";
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 // import ContactUs from './pages/Contact.js'
 import Navbar from "./Components/Navbar/Navbar.jsx";
 import Footer from "./Components/Footer/Footer.js";
@@ -39,6 +40,12 @@ function App() {
           <Route path="/about" component={About} exact />
           <Route path="/list" component={List} exact />
         </Switch>
+        <div className="fixed-bottom-what">
+          <a href="https://wa.me/971529538096?text=" target="blank">
+            {" "}
+            <FontAwesomeIcon icon={faWhatsapp} />
+          </a>
+        </div>
         <Footer />
       </ThemeProvider>
     </div>

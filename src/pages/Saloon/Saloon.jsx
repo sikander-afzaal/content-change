@@ -8,6 +8,108 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faInstagram, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 function Saloon() {
+  const eyelashes = [
+    {
+      name: "Classic Extension",
+      img: "./images/new/feedback.png",
+    },
+    {
+      name: "2D Extension",
+      img: "./images/new/feedback.png",
+    },
+    {
+      name: "3D Extension",
+      img: "./images/new/feedback.png",
+    },
+    {
+      name: "Russian Volume",
+      img: "./images/new/feedback.png",
+    },
+    {
+      name: "Dramatic Volume",
+      img: "./images/new/feedback.png",
+    },
+    {
+      name: "Coloured Lashes",
+      img: "./images/new/feedback.png",
+    },
+    {
+      name: "LVL lashes & eyebrows",
+      img: "./images/new/feedback.png",
+    },
+    {
+      name: "Bottom Eyelashes",
+      img: "./images/new/feedback.png",
+    },
+    {
+      name: "Removal Eyelashes",
+      img: "./images/new/feedback.png",
+    },
+    {
+      name: "Home Visiting",
+      img: "./images/new/feedback.png",
+    },
+  ];
+  const manicure = [
+    {
+      name: "Removal",
+      img: "./images/new/feedback.png",
+    },
+    {
+      name: "Overlay nails",
+      img: "./images/new/feedback.png",
+    },
+    {
+      name: "Nails cleaning",
+      img: "./images/new/feedback.png",
+    },
+    {
+      name: "Nail Design",
+      img: "./images/new/feedback.png",
+    },
+    {
+      name: "Manicure",
+      img: "./images/new/feedback.png",
+    },
+    {
+      name: "Pedicure",
+      img: "./images/new/feedback.png",
+    },
+    {
+      name: "Acrylic Nails",
+      img: "./images/new/feedback.png",
+    },
+    {
+      name: "Nail Extension",
+      img: "./images/new/feedback.png",
+    },
+    {
+      name: "Home Visiting",
+      img: "./images/new/feedback.png",
+    },
+  ];
+  const makeup = [
+    {
+      name: "Consultation",
+      img: "./images/new/feedback.png",
+    },
+    {
+      name: "Eyebrow Shading",
+      img: "./images/new/feedback.png",
+    },
+    {
+      name: "Eyeliner",
+      img: "./images/new/feedback.png",
+    },
+    {
+      name: "Lips Blushing",
+      img: "./images/new/feedback.png",
+    },
+    {
+      name: "Removal",
+      img: "./images/new/feedback.png",
+    },
+  ];
   const ColorButton = withStyles((theme) => ({
     root: {
       color: "#1B3644",
@@ -198,6 +300,122 @@ function Saloon() {
           </SplideSlide>
         </Splide>
       </div>
+      <h1 className="sal-head2">Our Services</h1>
+      <div className="section-sal">
+        <h1>Eyelash Extension</h1>
+        <Splide
+          options={{
+            width: "100%",
+            perPage: 3,
+            perMove: 1,
+            gap: "1rem",
+            arrows: true,
+            drag: true,
+            type: "loop",
+            pagination: false,
+            breakpoints: {
+              1547: {
+                perPage: 2,
+              },
+              1100: {
+                perPage: 1.5,
+              },
+              900: {
+                perPage: 1,
+              },
+            },
+          }}
+        >
+          {eyelashes.map((elem, idx) => {
+            return (
+              <SplideSlide key={"box-ser" + idx}>
+                <div className="service-slide">
+                  <img style={{ width: "100%" }} src={elem.img} alt="" />
+                  <h1>{elem.name}</h1>
+                  <ColorButton variant="outlined">Book Online</ColorButton>
+                </div>
+              </SplideSlide>
+            );
+          })}
+        </Splide>
+      </div>
+      <div className="section-sal">
+        <h1>Manicure & Pedicure</h1>
+        <Splide
+          options={{
+            width: "100%",
+            perPage: 3,
+            perMove: 1,
+            gap: "1rem",
+            arrows: true,
+            drag: true,
+            type: "loop",
+            pagination: false,
+            breakpoints: {
+              1547: {
+                perPage: 2,
+              },
+              1100: {
+                perPage: 1.5,
+              },
+              900: {
+                perPage: 1,
+              },
+            },
+          }}
+        >
+          {manicure.map((elem, idx) => {
+            return (
+              <SplideSlide key={"box-ser" + idx}>
+                <div className="service-slide">
+                  <img style={{ width: "100%" }} src={elem.img} alt="" />
+                  <h1>{elem.name}</h1>
+                  <ColorButton variant="outlined">Book Online</ColorButton>
+                </div>
+              </SplideSlide>
+            );
+          })}
+        </Splide>
+      </div>
+      <div className="section-sal">
+        <h1>Semi Permanent Makeup</h1>
+        <Splide
+          options={{
+            width: "100%",
+            perPage: 3,
+            perMove: 1,
+            gap: "1rem",
+            arrows: true,
+            drag: true,
+            type: "loop",
+            pagination: false,
+            breakpoints: {
+              1547: {
+                perPage: 2,
+              },
+              1100: {
+                perPage: 1.5,
+              },
+              900: {
+                perPage: 1,
+              },
+            },
+          }}
+        >
+          {makeup.map((elem, idx) => {
+            return (
+              <SplideSlide key={"box-ser" + idx}>
+                <div className="service-slide">
+                  <img style={{ width: "100%" }} src={elem.img} alt="" />
+                  <h1>{elem.name}</h1>
+                  <ColorButton variant="outlined">Book Online</ColorButton>
+                </div>
+              </SplideSlide>
+            );
+          })}
+        </Splide>
+      </div>
+      <img src="./images/new/map.png" className="map" alt="" />
     </div>
   );
 }
