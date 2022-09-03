@@ -42,13 +42,6 @@ function ProductsPage() {
     <>
       <div className="banner-hero">
         <Fade top cascade delay={100}>
-          {/* <h1>Nataliia Beauty</h1>
-          <a href="https://bumpix.net/en/nataliiabeauty" target="blank">
-            <FontAwesomeIcon icon={faCalendar} /> Book Online
-          </a>
-          <a href="https://wa.me/971529538096?text=" target="blank">
-            <FontAwesomeIcon icon={faWhatsapp} /> Chat with us
-          </a> */}
           <Link to={"/saloon"}>
             Salon <br /> Academy
           </Link>
@@ -72,8 +65,21 @@ function ProductsPage() {
           government
         </h3>
         <div className="row">
-          <img src={"/images/new/dubai1.png"} alt="" />
-          <img src={"/images/new/dubai2.png"} alt="" />
+          <img
+            style={{ maxWidth: "300px", height: "300px" }}
+            src={"/images/new/dubai1.png"}
+            alt=""
+          />
+          <img
+            style={{ maxWidth: "300px", height: "300px" }}
+            src={"/images/new/stamp.png"}
+            alt=""
+          />
+          <img
+            style={{ maxWidth: "300px", height: "300px" }}
+            src={"/images/new/dubai2.png"}
+            alt=""
+          />
         </div>
       </div>
       <div className="why about-hero">

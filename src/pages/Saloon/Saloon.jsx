@@ -14,6 +14,10 @@ function Saloon() {
       img: "./images/new/feedback.png",
     },
     {
+      name: "Eyelash extension & eyebrow lamination",
+      img: "./images/new/offer.png",
+    },
+    {
       name: "2D Extension",
       img: "./images/new/feedback.png",
     },
@@ -133,21 +137,13 @@ function Saloon() {
       <div className="box-saloon">
         <img src="/images/new/center.png" alt="" />
         <h2>Welcome to Nataliia Beauty Center</h2>
-        <h1>Eyelashes | Semi Permanent Makeup | Nails</h1>
+        <h1>Eyelashes | Hair | Nails</h1>
         <h2>Russian PROs</h2>
         <h2>Dubai, UAE 2021 Winner</h2>
         <h2>Home visiting available</h2>{" "}
         <ColorButton variant="outlined">Book Online</ColorButton>
       </div>
-      <div className="section-sal">
-        <h1 className="sal-head">OFFERS</h1>
-        <div className="box-saloon">
-          <img src="/images/new/offer.png" alt="" />
-          <h1>Eyelash extension & eyebrow lamination</h1>
-          <h3>AED 500</h3>
-          <ColorButton variant="outlined">Book Online</ColorButton>
-        </div>
-      </div>
+
       <Splide
         options={{
           width: "100%",
@@ -173,99 +169,110 @@ function Saloon() {
       >
         <SplideSlide>
           <div className="hour-div">
-            <h1>Semi Permanent Makeup</h1>
-            <img src="/images/new/hour1.png" alt="" />
+            <h1>Hair Extension</h1>
+            <iframe
+              src="https://www.youtube.com/embed/HOGFrrnE45g"
+              title="Hair Extension | Nataliia Beauty Dubai"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
             <h2>Working Hours:</h2>
             <h2>10 AM - 10PM</h2>
             <h2>How to book an appointment</h2>
             <div>
-              <button variant="outlined">
-                <FontAwesomeIcon icon={faInstagram} /> Instagram
-              </button>
-              <button variant="outlined">
-                <FontAwesomeIcon icon={faWhatsapp} /> Whatsapp
-              </button>
-              <button variant="outlined">
-                <FontAwesomeIcon icon={faArrowRight} /> Online Booking
-              </button>
+              <a
+                href="https://instagram.com/nataliia.beauty?igshid=ODBkMDk1MTU="
+                target="blank"
+              >
+                <button variant="outlined">
+                  <FontAwesomeIcon icon={faInstagram} /> Instagram
+                </button>
+              </a>
+              <a href="https://wa.me/message/6PUPLGYDYM2OL1" target="blank">
+                <button variant="outlined">
+                  <FontAwesomeIcon icon={faWhatsapp} /> Whatsapp
+                </button>
+              </a>
+              <a href="https://bumpix.net/en/nataliia.beauty" target="blank">
+                <button variant="outlined">
+                  <FontAwesomeIcon icon={faArrowRight} /> Online Booking
+                </button>
+              </a>
             </div>
           </div>
         </SplideSlide>
         <SplideSlide>
           <div className="hour-div">
             <h1>Manicure & Pedicure</h1>
-            <img src="/images/new/hour2.png" alt="" />
+            <iframe
+              src="https://www.youtube.com/embed/dvW-mGamd94"
+              title="17 July 2022"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
             <h2>Working Hours:</h2>
             <h2>10 AM - 10PM</h2>
             <h2>How to book an appointment</h2>
             <div>
-              <button variant="outlined">
-                <FontAwesomeIcon icon={faInstagram} /> Instagram
-              </button>
-              <button variant="outlined">
-                <FontAwesomeIcon icon={faWhatsapp} /> Whatsapp
-              </button>
-              <button variant="outlined">
-                <FontAwesomeIcon icon={faArrowRight} /> Online Booking
-              </button>
+              <a
+                href="https://instagram.com/nataliia.beauty?igshid=ODBkMDk1MTU="
+                target="blank"
+              >
+                <button variant="outlined">
+                  <FontAwesomeIcon icon={faInstagram} /> Instagram
+                </button>
+              </a>
+              <a href="https://wa.me/message/6PUPLGYDYM2OL1" target="blank">
+                <button variant="outlined">
+                  <FontAwesomeIcon icon={faWhatsapp} /> Whatsapp
+                </button>
+              </a>
+              <a href="https://bumpix.net/en/nataliia.beauty" target="blank">
+                <button variant="outlined">
+                  <FontAwesomeIcon icon={faArrowRight} /> Online Booking
+                </button>
+              </a>
             </div>
           </div>
         </SplideSlide>
         <SplideSlide>
           <div className="hour-div">
             <h1>eyelash extension</h1>
-            <img src="/images/new/hour3.png" alt="" />
+            <iframe
+              src="https://www.youtube.com/embed/yeBK3KjmH8E"
+              title="“Nataliia.Beauty” Lash Center"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
             <h2>Working Hours:</h2>
             <h2>10 AM - 10PM</h2>
             <h2>How to book an appointment</h2>
             <div>
-              <button variant="outlined">
-                <FontAwesomeIcon icon={faInstagram} /> Instagram
-              </button>
-              <button variant="outlined">
-                <FontAwesomeIcon icon={faWhatsapp} /> Whatsapp
-              </button>
-              <button variant="outlined">
-                <FontAwesomeIcon icon={faArrowRight} /> Online Booking
-              </button>
+              <a
+                href="https://instagram.com/nataliia.beauty?igshid=ODBkMDk1MTU="
+                target="blank"
+              >
+                <button variant="outlined">
+                  <FontAwesomeIcon icon={faInstagram} /> Instagram
+                </button>
+              </a>
+              <a href="https://wa.me/message/6PUPLGYDYM2OL1" target="blank">
+                <button variant="outlined">
+                  <FontAwesomeIcon icon={faWhatsapp} /> Whatsapp
+                </button>
+              </a>
+              <a href="https://bumpix.net/en/nataliia.beauty" target="blank">
+                <button variant="outlined">
+                  <FontAwesomeIcon icon={faArrowRight} /> Online Booking
+                </button>
+              </a>
             </div>
           </div>
         </SplideSlide>
       </Splide>
-      <div className="section-sal">
-        <h1 className="sal-head">Why Customers are choosing us</h1>
-        <Splide
-          options={{
-            width: "100%",
-            perPage: 3,
-            perMove: 1,
-            gap: "1rem",
-            arrows: true,
-            drag: true,
-            type: "loop",
-            pagination: false,
-            breakpoints: {
-              1547: {
-                perPage: 2,
-              },
-              1100: {
-                perPage: 1.5,
-              },
-              900: {
-                perPage: 1,
-              },
-            },
-          }}
-        >
-          <SplideSlide>
-            <img
-              style={{ width: "100%" }}
-              src="./images/new/why-choose.png"
-              alt=""
-            />
-          </SplideSlide>
-        </Splide>
-      </div>
       <div className="section-sal">
         <h1 className="sal-head">Feedbacks</h1>
         <Splide
@@ -292,14 +299,38 @@ function Saloon() {
           }}
         >
           <SplideSlide>
-            <img
-              style={{ width: "100%" }}
-              src="./images/new/feedback.png"
-              alt=""
-            />
+            <iframe
+              style={{ width: "100%", height: "833px" }}
+              src="https://www.youtube.com/embed/f2VqEjZWnac"
+              title="Feedback 💕"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </SplideSlide>
+          <SplideSlide>
+            <iframe
+              style={{ width: "100%", height: "833px" }}
+              src="https://www.youtube.com/embed/j7nSNl2IIKE"
+              title="Review 😘"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </SplideSlide>
+          <SplideSlide>
+            <iframe
+              style={{ width: "100%", height: "833px" }}
+              src="https://www.youtube.com/embed/1ru8MMQe1GA"
+              title="Testimonial 🥰"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
           </SplideSlide>
         </Splide>
       </div>
+
       <h1 className="sal-head2">Our Services</h1>
       <div className="section-sal">
         <h1>Eyelash Extension</h1>

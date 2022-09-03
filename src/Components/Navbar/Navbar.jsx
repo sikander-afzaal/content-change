@@ -18,7 +18,7 @@ function Navbar() {
             <img className="logo" src="/images/logo.png" />
           </Link>
           <button
-            className="navbar-toggler"
+            class="navbar-toggler"
             type="button"
             data-toggle="collapse"
             data-target="#navbarNav"
@@ -26,7 +26,7 @@ function Navbar() {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span className="navbar-toggler-icon" />
+            <span class="navbar-toggler-icon"></span>
           </button>
           <div
             className="collapse navbar-collapse"
@@ -76,10 +76,24 @@ function Navbar() {
                 <li>En</li>
               </li>{" "}
             </ul>
+            <div className="row-loc mobile">
+              <div className="box-loc">
+                <FontAwesomeIcon icon={faLocationDot} />
+                <a href="https://goo.gl/maps/NtWHwvJHreroUFuq9" target="blank">
+                  Light Commercial Tower - Arjan dubai land.
+                </a>
+              </div>
+              <div className="box-loc">
+                <FontAwesomeIcon icon={faPhone} />
+                <a href="tel:+971529538096" target="blank">
+                  +971 52 953 8096
+                </a>
+              </div>
+            </div>
           </div>
         </nav>
         <div className="location">
-          <div className="row-loc">
+          <div className="row-loc desktop">
             <div className="box-loc">
               <FontAwesomeIcon icon={faLocationDot} />
               <a href="https://goo.gl/maps/NtWHwvJHreroUFuq9" target="blank">

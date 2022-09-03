@@ -163,18 +163,24 @@
   position: fixed;
   bottom: 20px;
   right: 20px;
-  background-color: green;
   display: inline-block;
   width: fit-content;
-  width: 80px;
-  height: 80px;
-  display: grid;
-  place-items: center;
-  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
 }
 .fixed-bottom-what a {
-  font-size: 40px;
+  padding: 1px;
+  font-size: 30px;
   color: white;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  background-color: green;
+  width: 80px;
+  height: 80px;
 }
 @media screen and (max-width: 675px) {
   .banner-hero a {

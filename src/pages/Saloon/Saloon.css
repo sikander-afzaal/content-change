@@ -15,6 +15,8 @@
   gap: 10px;
   background-color: white;
   padding-bottom: 10px;
+  margin-bottom: 100px;
+  border-radius: 10px;
 }
 .box-saloon h2 {
   font-size: 25px;
@@ -54,8 +56,9 @@
   flex-direction: column;
   gap: 10px;
 }
-.hour-div img {
-  height: 350px;
+.hour-div iframe {
+  height: 533px;
+  width: 100%;
 }
 .hour-div h1 {
   font-size: 30px;
@@ -88,6 +91,10 @@
   flex-direction: column;
   width: 100%;
   gap: 10px;
+}
+.service-slide img {
+  width: 100%;
+  height: 360px;
 }
 .service-slide h1 {
   font-weight: 500;
