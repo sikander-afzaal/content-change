@@ -4,7 +4,9 @@ body {
   font-family: SangBleu OG Sans Trial !important;
   font-style: normal !important;
   font-weight: 300;
-  background-color: rgb(208, 247, 208) !important;
+  background-image: url("./bg.jpeg") !important;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 html {
   scroll-behavior: smooth;
