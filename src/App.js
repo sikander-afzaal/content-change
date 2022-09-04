@@ -24,36 +24,39 @@ function App() {
   }, [location.pathname]);
 
   return (
-    <div className="App">
-      <ThemeProvider
-        theme={(outerTheme) => createMuiTheme(outerTheme, locales[locale])}
-      >
-        <Navbar />
-        <Switch>
-          <Route path="/" component={ProductsPage} exact />
-          <Route
-            path="/productsdetails/:id"
-            component={ProductPageDesktop}
-            exact
-          />
-          <Route path="/team" component={Team} exact />
-          <Route path="/saloon" component={Saloon} exact />
-          <Route path="/about" component={About} exact />
-          <Route path="/list" component={List} exact />
-        </Switch>
-        <div className="fixed-bottom-what">
-          <a href="tel:+971 52 953 8096" target="blank">
-            {" "}
-            <FontAwesomeIcon icon={faPhone} />
-          </a>
-          <a href="https://wa.me/971529538096?text=" target="blank">
-            {" "}
-            <FontAwesomeIcon icon={faWhatsapp} />
-          </a>
-        </div>
-        <Footer />
-      </ThemeProvider>
-    </div>
+    <>
+      <div className="bg-app"></div>
+      <div className="App">
+        <ThemeProvider
+          theme={(outerTheme) => createMuiTheme(outerTheme, locales[locale])}
+        >
+          <Navbar />
+          <Switch>
+            <Route path="/" component={ProductsPage} exact />
+            <Route
+              path="/productsdetails/:id"
+              component={ProductPageDesktop}
+              exact
+            />
+            <Route path="/team" component={Team} exact />
+            <Route path="/saloon" component={Saloon} exact />
+            <Route path="/about" component={About} exact />
+            <Route path="/list" component={List} exact />
+          </Switch>
+          <div className="fixed-bottom-what">
+            <a href="tel:+971 52 953 8096" target="blank">
+              {" "}
+              <FontAwesomeIcon icon={faPhone} />
+            </a>
+            <a href="https://wa.me/971529538096?text=" target="blank">
+              {" "}
+              <FontAwesomeIcon icon={faWhatsapp} />
+            </a>
+          </div>
+          <Footer />
+        </ThemeProvider>
+      </div>
+    </>
   );
 }
 

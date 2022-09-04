@@ -4,21 +4,18 @@ body {
   font-family: SangBleu OG Sans Trial !important;
   font-style: normal !important;
   font-weight: 300;
+}
+html {
+  scroll-behavior: smooth;
+}
+.bg-app {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
   background-image: url("./bg.jpeg") !important;
   background-repeat: no-repeat;
   background-size: cover;
-}
-html {
-  scroll-behavior: smooth;
-}
-body {
-  margin: 0px;
-  padding: 0px;
-  font-family: SangBleu OG Sans Trial !important;
-  font-style: normal !important;
-  font-weight: 300;
-  background-color: #a1b985 !important;
-}
-html {
-  scroll-behavior: smooth;
+  z-index: -1;
 }
