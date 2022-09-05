@@ -7,7 +7,12 @@ import {
   faInstagram,
   faWhatsapp,
 } from "@fortawesome/free-brands-svg-icons";
-import { faLocationDot, faPhone } from "@fortawesome/free-solid-svg-icons";
+import {
+  faLocationDot,
+  faLocationPin,
+  faMapPin,
+  faPhone,
+} from "@fortawesome/free-solid-svg-icons";
 
 function Navbar() {
   return (
@@ -93,39 +98,49 @@ function Navbar() {
           </div>
         </nav>
         <div className="location">
-          <div className="row-loc desktop">
-            <div className="box-loc">
-              <FontAwesomeIcon icon={faLocationDot} />
-              <a href="https://goo.gl/maps/NtWHwvJHreroUFuq9" target="blank">
-                Light Commercial Tower - Arjan dubai land.
-              </a>
+          <h3>Beauty Matters</h3>
+          <div className="row">
+            <div className="row-loc desktop">
+              <div className="box-loc">
+                <FontAwesomeIcon icon={faLocationDot} />
+                <a href="https://goo.gl/maps/NtWHwvJHreroUFuq9" target="blank">
+                  Light Commercial Tower - Arjan dubai land.
+                </a>
+              </div>
+              <div className="box-loc">
+                <FontAwesomeIcon icon={faPhone} />
+                <a href="tel:+971529538096" target="blank">
+                  +971 52 953 8096
+                </a>
+              </div>
             </div>
-            <div className="box-loc">
-              <FontAwesomeIcon icon={faPhone} />
-              <a href="tel:+971529538096" target="blank">
-                +971 52 953 8096
-              </a>
-            </div>
-          </div>
 
-          <div className="header-social">
-            <a
-              target="blank"
-              href="https://www.instagram.com/nataliia.beauty/?hl=en"
-            >
-              <FontAwesomeIcon icon={faInstagram} />
-            </a>
-            <a
-              target="blank"
-              href="https://www.facebook.com/profile.php?id=100063574540308"
-            >
-              {" "}
-              <FontAwesomeIcon icon={faFacebook} />
-            </a>
-            <a href="https://wa.me/971529538096?text=" target="blank">
-              {" "}
-              <FontAwesomeIcon icon={faWhatsapp} />
-            </a>
+            <div className="header-social">
+              <a
+                target="blank"
+                href="https://www.instagram.com/nataliia.beauty/?hl=en"
+              >
+                <FontAwesomeIcon icon={faInstagram} />
+              </a>
+              <a
+                target="blank"
+                href="https://www.facebook.com/profile.php?id=100063574540308"
+              >
+                {" "}
+                <FontAwesomeIcon icon={faFacebook} />
+              </a>
+              <a href="https://wa.me/971529538096?text=" target="blank">
+                {" "}
+                <FontAwesomeIcon icon={faWhatsapp} />
+              </a>
+              <a
+                href="https://www.google.com/maps?q=Nataliia+beauty,+The+Light+Commercial+Tower+-+Shop.+3+-+Al+Barsha+South+-+Dubai&ftid=0x3e5f6f24a45556f9:0x30dd3952909407f6&hl=en&gl=pk&entry=gps&g_ep=CAISBjYuMzEuMxgA&shorturl=1"
+                target="blank"
+              >
+                {" "}
+                <FontAwesomeIcon icon={faLocationPin} />
+              </a>
+            </div>
           </div>
         </div>
       </div>

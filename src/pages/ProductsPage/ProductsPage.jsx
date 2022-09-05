@@ -59,10 +59,9 @@ function ProductsPage() {
           <img src="./images/new/who3.png" alt="" />
         </div>
         <h3>
-          We train eyelash extension <br /> nails and SPMU from zero. <br />{" "}
+          We train eyelash extension <br /> nails and hair from zero. <br />{" "}
           Also we have upgraded courses. <br /> Choose a course which is
-          suitable your level. <br /> <br /> We are certified bya KHDA
-          government
+          suitable your level. <br /> <br /> We are certified by KHDA goverment
         </h3>
         <div className="row">
           <img
@@ -71,7 +70,11 @@ function ProductsPage() {
             alt=""
           />
           <img
-            style={{ maxWidth: "300px", height: "300px" }}
+            style={{
+              maxWidth: "300px",
+              height: "300px",
+              backgroundColor: "white",
+            }}
             src={"/images/new/stamp.png"}
             alt=""
           />
@@ -201,40 +204,6 @@ function ProductsPage() {
                 Manicure | pedicure technician From Kazakhstan with 8 years of
                 experience. <br /> very friendly and cute <br /> Only Quality
                 Service
-              </p>
-            </div>
-          </SplideSlide>
-          <SplideSlide>
-            <div className="team-box">
-              <img src="./images/new/team4.png" alt="" />
-              <h2>ELINA</h2>
-              <p>
-                Eyelash | eyebrow technician From Kazakhstan with 6 years of
-                experience. <br /> 1 year with Nataliia Beauty <br /> Very
-                Friendly and communicable <br /> Always stylish Mom of two boys
-              </p>
-            </div>
-          </SplideSlide>
-          <SplideSlide>
-            <div className="team-box">
-              <img src="./images/new/team5.png" alt="" />
-              <h2>ELMIRA</h2>
-              <p>
-                Eyelash | eyebrow technician From Kazakhstan with 3 years of
-                experience. <br />
-                very friendly and cute <br /> New in Dubai
-              </p>
-            </div>
-          </SplideSlide>
-          <SplideSlide>
-            <div className="team-box">
-              <img src="./images/new/team6.png" alt="" />
-              <h2>MIRA</h2>
-              <p>
-                Eyelash | eyebrow technician From Kyrgyzstan with 5 years of
-                experience.
-                <br /> 1 year with Nataliia Beauty <br /> Very Friendly and
-                communicable <br /> Always cute Mom of two boys
               </p>
             </div>
           </SplideSlide>

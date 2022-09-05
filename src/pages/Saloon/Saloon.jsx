@@ -409,7 +409,7 @@ function Saloon() {
         </Splide>
       </div>
       <div className="section-sal">
-        <h1>Semi Permanent Makeup</h1>
+        <h1>Hair</h1>
         <Splide
           options={{
             width: "100%",
@@ -444,6 +444,100 @@ function Saloon() {
               </SplideSlide>
             );
           })}
+        </Splide>
+      </div>
+      <div className="section-sal">
+        <h1>TEAM</h1>
+        <Splide
+          options={{
+            width: "100%",
+            perPage: 3,
+            perMove: 1,
+            gap: "1rem",
+            arrows: true,
+            drag: true,
+            type: "loop",
+            pagination: false,
+            breakpoints: {
+              1257: {
+                perPage: 2,
+              },
+              760: {
+                perPage: 1.5,
+              },
+              580: {
+                perPage: 1,
+              },
+            },
+          }}
+        >
+          <SplideSlide>
+            <div className="team-box">
+              <img src="./images/new/team1.png" alt="" />
+              <h2>NATALIIA</h2>
+              <p>
+                EYELASH EXTENSION TRAINER From UKRAINE with 10 years of
+                experience. <br /> CEO at NATALIIA BEAUTY TRAINING <br /> Dubai
+                winner <br />
+                More than 50 happy students
+              </p>
+            </div>
+          </SplideSlide>
+          <SplideSlide>
+            <div className="team-box">
+              <img src="./images/new/team2.png" alt="" />
+              <h2>NATALIIA</h2>
+              <p>
+                SPMU technician From UKRAINE with 10 years of experience. <br />{" "}
+                very friendly and cute <br /> Mom of one boy
+              </p>
+            </div>
+          </SplideSlide>
+          <SplideSlide>
+            <div className="team-box">
+              <img src="./images/new/team3.png" alt="" />
+              <h2>BALNUR</h2>
+              <p>
+                Manicure | pedicure technician From Kazakhstan with 8 years of
+                experience. <br /> very friendly and cute <br /> Only Quality
+                Service
+              </p>
+            </div>
+          </SplideSlide>
+          <SplideSlide>
+            <div className="team-box">
+              <img src="./images/new/team4.png" alt="" />
+              <h2>ELINA</h2>
+              <p>
+                Eyelash | eyebrow technician From Kazakhstan with 6 years of
+                experience. <br /> 1 year with Nataliia Beauty <br /> Very
+                Friendly and communicable <br /> Always stylish Mom of two boys
+              </p>
+            </div>
+          </SplideSlide>
+          <SplideSlide>
+            <div className="team-box">
+              <img src="./images/new/team5.png" alt="" />
+              <h2>ELMIRA</h2>
+              <p>
+                Eyelash | eyebrow technician From Kazakhstan with 3 years of
+                experience. <br />
+                very friendly and cute <br /> New in Dubai
+              </p>
+            </div>
+          </SplideSlide>
+          <SplideSlide>
+            <div className="team-box">
+              <img src="./images/new/team6.png" alt="" />
+              <h2>MIRA</h2>
+              <p>
+                Eyelash | eyebrow technician From Kyrgyzstan with 5 years of
+                experience.
+                <br /> 1 year with Nataliia Beauty <br /> Very Friendly and
+                communicable <br /> Always cute Mom of two boys
+              </p>
+            </div>
+          </SplideSlide>
         </Splide>
       </div>
       <img src="./images/new/map.png" className="map" alt="" />
