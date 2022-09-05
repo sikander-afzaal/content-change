@@ -122,7 +122,7 @@ function Saloon() {
       borderRadius: "100vh",
       padding: "0px",
       height: "50px",
-      width: "100px",
+      width: "150px",
       textTransform: "Capitalize",
       "&:hover": {
         backgroundColor: "white",

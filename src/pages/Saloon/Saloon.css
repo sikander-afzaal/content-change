@@ -76,13 +76,15 @@
   justify-content: center;
 }
 .hour-div button {
-  width: 200px;
+  width: 340px;
   display: flex;
   justify-content: flex-start;
   gap: 10px;
   align-items: center;
   padding: 10px 20px;
   font-size: 18px;
+  border-radius: 100vh;
+  background-color: white;
 }
 .service-slide {
   display: flex;
